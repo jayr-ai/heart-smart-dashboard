@@ -1,0 +1,20 @@
+{
+  "lastUpdated": "2026-08-06T12:00:00.000Z",
+  "summary": {
+    "totalRevenue": 0,
+    "stripeRevenue": 0,
+    "financeRevenue": 0,
+    "eftRevenue": 0
+  },
+  "yearComparison": [
+    {
+      "mode": "Total Revenue",
+      "2025": 0,
+      "2026": 0,
+      "2027": 0,
+      "total": 0
+    }
+  ],
+  "monthlyData": [],
+  "productData": []
+}

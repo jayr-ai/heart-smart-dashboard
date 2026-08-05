@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Heart Smart - Revenue Dashboard</title>
+    <link rel="stylesheet" href="css/style.css?nocache=20260806120000">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+</head>
+<body>
+    <!-- Home Button (Top Right) -->
+    <a href="/" class="home-btn" title="Back to hub" aria-label="Back to hub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 9.7 12 3l9 6.7"/>
+            <path d="M5.2 8.4V20a1 1 0 0 0 1 1H9.6v-5.4h4.8V21h3.4a1 1 0 0 0 1-1V8.4"/>
+        </svg>
+    </a>
+
+    <div class="container">
+        <!-- Header with logo, title, sync timestamp, period buttons -->
+        <header class="header">
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <div class="header-branding">
+                        <div class="logo-badge">HS</div>
+                        <div class="header-titles">
+                            <h1>HEART SMART</h1>
+                            <div class="subtitle-with-sync">
+                                <p>Revenue Dashboard</p>
+                                <span class="sync-info" id="lastSync">synced from the source sheet at 2026-08-06 12:00:00 AEST</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <!-- Period Buttons: ALL TIME, YTD, CUSTOM -->
+                    <div class="period-buttons">
+                        <button class="period-btn" id="allTimeBtn">ALL TIME</button>
+                        <button class="period-btn" id="ytdBtn">YTD</button>
+                        <button class="period-btn active" id="customBtn">CUSTOM</button>
+                    </div>
+
+                    <!-- Date Range Selector -->
+                    <div class="date-selector" id="dateRangeSelector">
+                        <span class="date-label">Period:</span>
+                        <input type="date" id="dateFrom" placeholder="From">
+                        <span class="date-separator">→</span>
+                        <input type="date" id="dateTo" placeholder="To">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Executive Insights (auto-generated) -->
+        <section class="insights-section">
+            <div class="insights-card">
+                <h3>Executive Summary</h3>
+                <div class="insights-content" id="insightsContent">
+                    <p>Loading insights...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- KPI Cards (Total, Stripe, Finance, EFT) -->
+        <section class="kpi-section">
+            <div class="kpi-card">
+                <div class="kpi-label">Total Revenue</div>
+                <div class="kpi-value" id="totalRevenue">$0</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">From Stripe</div>
+                <div class="kpi-value stripe-color" id="stripeRevenue">$0</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">From Finance</div>
+                <div class="kpi-value finance-color" id="financeRevenue">$0</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-label">From EFT</div>
+                <div class="kpi-value eft-color" id="eftRevenue">$0</div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+            <div class="chart-container">
+                <h3>Total Revenue</h3>
+                <canvas id="revenueTrendChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Revenue by Source</h3>
+                <canvas id="sourceBreakdownChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Year-over-Year Table -->
+        <section class="table-section">
+            <h3>Year-over-Year Comparison</h3>
+            <table class="data-table" id="yearComparisonTable">
+                <thead>
+                    <tr>
+                        <th>Mode</th>
+                        <th>2025</th>
+                        <th>2026</th>
+                        <th>2027</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="yearComparisonBody"></tbody>
+            </table>
+        </section>
+
+        <!-- Monthly Cash & Payment Channels -->
+        <section class="charts-section">
+            <div class="chart-container">
+                <h3>Cash Collected Breakdown Per Month</h3>
+                <canvas id="monthlyCashChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Which payment channel received the most amount of cash?</h3>
+                <canvas id="paymentChannelChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Product Performance Table -->
+        <section class="table-section">
+            <h3>Cash Collected By Product</h3>
+            <table class="data-table" id="productTable">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>2025</th>
+                        <th>2026</th>
+                        <th>Total Revenue</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody"></tbody>
+            </table>
+        </section>
+
+        <div id="loadingMessage" class="loading-message">Loading dashboard data...</div>
+    </div>
+
+    <script src="js/app.js?nocache=20260806120000"></script>
+</body>
+</html>

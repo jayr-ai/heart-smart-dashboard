@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Heart Smart Australia · Meta Ads Performance Report</title>
+<script>
+  (function(){ try{ var t=localStorage.getItem('hsa-theme'); document.documentElement.setAttribute('data-theme',(t==='light'||t==='dark')?t:'dark'); }catch(e){ document.documentElement.setAttribute('data-theme','dark'); } })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#E6EBF4; --text2:#B8C4D6; --blue:#60A5FA; --paper:#0B1220; --paper2:#131D30;
+    --muted:#94A3B8; --faint:#64748B; --line:#25324A; --line2:#1A2436;
+    --hover:rgba(96,165,250,.12); --navtext:#C3CDDC;
+    --good:#22C55E; --warn:#FBBF24; --bad:#F87171; --sidebar:264px;
+  }
+  :root[data-theme="light"]{
+    --ink:#0F172A; --text2:#334155; --blue:#2563EB; --paper:#ffffff; --paper2:#F8FAFC;
+    --muted:#64748B; --faint:#94A3B8; --line:#E2E8F0; --line2:#EEF2F7;
+    --hover:#EEF3FB; --navtext:#334155; --good:#16A34A; --warn:#D97706; --bad:#DC2626;
+  }
+  *{box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:'Inter',system-ui,-apple-system,sans-serif; font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased; transition:background .2s ease, color .2s ease;}
+  a{color:inherit; text-decoration:none;}
+  .sidebar{position:fixed; top:0; left:0; width:var(--sidebar); height:100vh; border-right:1px solid var(--line); background:var(--paper2); padding:30px 22px; overflow-y:auto; transition:background .2s ease;}
+  .brand{font-size:19px; font-weight:700; letter-spacing:-0.02em; line-height:1.2;}
+  .brand .b{color:var(--blue);}
+  .brand-sub{font-size:12.5px; color:var(--muted); margin-top:3px;}
+  .navgroup{margin-top:26px;}
+  .navgroup h4{font-size:10.5px; font-weight:600; letter-spacing:.13em; text-transform:uppercase; color:var(--faint); margin:0 0 9px 0;}
+  .navlink{display:flex; gap:10px; align-items:baseline; padding:5px 8px; border-radius:7px; font-size:13.5px; color:var(--navtext); margin-left:-8px;}
+  .navlink .n{font-size:11px; color:var(--faint); font-variant-numeric:tabular-nums; min-width:16px;}
+  .navlink:hover{background:var(--hover);} .navlink:hover .n{color:var(--blue);}
+  main{margin-left:var(--sidebar);}
+  .wrap{max-width:880px; margin:0; padding:56px 56px 120px;}
+  h1.display{font-size:54px; font-weight:300; letter-spacing:-0.025em; line-height:1.04; margin:0 0 10px;}
+  h1.display .b{color:var(--blue);}
+  .lead{font-size:14.5px; color:var(--text2); max-width:72ch;}
+  .rangebar{display:flex; flex-wrap:wrap; gap:8px; margin:0 0 22px; padding:6px; background:var(--paper2); border:1px solid var(--line); border-radius:14px;}
+  .rangebar button{flex:1; min-width:110px; border:1px solid transparent; background:transparent; color:var(--text2); font-family:inherit; font-size:13.5px; font-weight:600; padding:9px 10px; border-radius:9px; cursor:pointer; transition:all .15s ease; line-height:1.2;}
+  .rangebar button small{display:block; font-size:10.5px; font-weight:500; color:var(--faint); margin-top:2px;}
+  .rangebar button:hover{background:var(--hover);}
+  .rangebar button[aria-selected="true"]{background:var(--blue); color:#0B1220; border-color:var(--blue);}
+  .rangebar button[aria-selected="true"] small{color:rgba(11,18,32,.7);}
+  .pills{display:flex; flex-wrap:wrap; gap:10px; margin:22px 0 6px;}
+  .pill{border:1px solid var(--line); border-radius:999px; padding:7px 15px; font-size:13.5px; background:var(--paper2);}
+  .pill b{font-weight:600;} .pill span{color:var(--muted);}
+  .callout{background:var(--paper2); border-left:3px solid var(--blue); border-radius:0 10px 10px 0; padding:16px 20px; margin:22px 0; font-size:14.5px; color:var(--text2);}
+  .callout b{color:var(--ink);} .callout.amber{border-left-color:var(--warn);}
+  section{padding-top:48px; margin-top:8px; border-top:1px solid var(--line2);}
+  .sec-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:6px;}
+  .sec-eyebrow{font-size:11px; font-weight:600; letter-spacing:.15em; text-transform:uppercase; color:var(--blue);}
+  .sec-num{font-size:13px; color:var(--faint); font-variant-numeric:tabular-nums;}
+  h2{font-size:30px; font-weight:300; letter-spacing:-0.02em; margin:6px 0 16px;}
+  h2 .b{color:var(--blue);}
+  p{margin:12px 0; font-size:14.5px; color:var(--text2);}
+  .note{font-size:14px; color:var(--muted);}
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14px;}
+  th,td{text-align:right; padding:9px 12px; border-bottom:1px solid var(--line2);}
+  th:first-child,td:first-child{text-align:left;}
+  thead th{font-size:11px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--faint); border-bottom:1px solid var(--line);}
+  tbody tr:hover{background:var(--paper2);}
+  tfoot td{font-weight:600; border-top:1px solid var(--line); border-bottom:none; color:var(--ink);}
+  td.strong{font-weight:600; color:var(--ink);}
+  .tag{display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:6px;}
+  .tag.pur{background:rgba(96,165,250,.16); color:#93C5FD;}
+  .tag.lead{background:rgba(34,197,94,.16); color:#4ADE80;}
+  .tag.oth{background:rgba(148,163,184,.16); color:#CBD5E1;}
+  :root[data-theme="light"] .tag.pur{background:#DBEAFE; color:#1E40AF;}
+  :root[data-theme="light"] .tag.lead{background:#DCFCE7; color:#166534;}
+  :root[data-theme="light"] .tag.oth{background:#F1F5F9; color:#475569;}
+  .metrics{display:flex; gap:16px; flex-wrap:wrap; margin:22px 0;}
+  .metric{flex:1; min-width:150px; border:1px solid var(--line); border-radius:12px; padding:18px 20px; background:var(--paper2);}
+  .metric .k{font-size:11px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--faint);}
+  .metric .v{font-size:30px; font-weight:300; letter-spacing:-0.02em; margin-top:6px;}
+  .metric .v .b{color:var(--blue);}
+  .metric .d{font-size:12.5px; color:var(--muted); margin-top:4px;}
+  ol.actions{counter-reset:a; list-style:none; padding:0; margin:16px 0;}
+  ol.actions li{counter-increment:a; position:relative; padding:14px 0 14px 44px; border-bottom:1px solid var(--line2); font-size:14.5px; color:var(--text2);}
+  ol.actions li::before{content:counter(a); position:absolute; left:0; top:12px; width:28px; height:28px; border-radius:8px; background:var(--blue); color:#0B1220; font-size:13px; font-weight:700; display:grid; place-items:center;}
+  :root[data-theme="light"] ol.actions li::before{background:var(--ink); color:#fff; font-weight:600;}
+  ol.actions li b{color:var(--ink);}
+  ul.clean{list-style:none; padding:0; margin:14px 0;}
+  ul.clean li{padding:10px 0 10px 20px; border-bottom:1px solid var(--line2); position:relative; font-size:14.5px;}
+  ul.clean li::before{content:""; position:absolute; left:2px; top:19px; width:6px; height:6px; border-radius:50%; background:var(--blue);}
+  ul.clean li b{color:var(--ink);}
+  footer{margin-top:64px; padding-top:24px; border-top:1px solid var(--line); font-size:13px; color:var(--muted);}
+  footer .tagline{font-size:16px; color:var(--ink); font-weight:500; margin-bottom:8px;}
+  .updated{display:flex; flex-wrap:wrap; gap:6px; align-items:center; font-size:12.5px; color:var(--muted); margin-bottom:18px;}
+  .updated .u-live{font-weight:600; color:var(--text2);} .updated .u-sep{color:var(--faint);}
+  .dot{width:8px; height:8px; border-radius:50%; background:var(--good); flex:none; animation:pulse 2s infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.55);} 70%{box-shadow:0 0 0 8px rgba(34,197,94,0);} 100%{box-shadow:0 0 0 0 rgba(34,197,94,0);}}
+  .theme-toggle{position:fixed; top:18px; right:20px; z-index:60; display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); background:var(--paper2); color:var(--ink); padding:7px 13px; border-radius:999px; font-family:inherit; font-size:12.5px; font-weight:600; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,.25);}
+  .theme-toggle:hover{border-color:var(--blue);} .theme-toggle .ic{font-size:14px; line-height:1;}
+  @media(max-width:900px){
+    .sidebar{display:none;} main{margin-left:0;} .wrap{padding:66px 20px 108px; max-width:none;}
+    section{scroll-margin-top:66px;} .theme-toggle{top:14px; right:14px; padding:6px 11px;}
+    table{font-size:13px; display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; white-space:nowrap;}
+    .metrics{gap:10px;} .metric{min-width:calc(50% - 5px); padding:14px 15px;} .metric .v{font-size:24px;}
+    .rangebar button{min-width:calc(50% - 4px);}
+  }
+</style>
+</head>
+<body>
+
+<button id="themeToggle" class="theme-toggle" type="button" onclick="__toggleTheme()" aria-label="Toggle night mode"><span class="ic">&#9790;</span><span class="lbl">Night mode</span></button>
+
+<aside class="sidebar">
+  <div class="brand">Heart Smart <span class="b">Australia</span></div>
+  <div class="brand-sub">Paid Media Report · Meta Ads</div>
+  <div class="navgroup"><h4>Overview</h4>
+    <a class="navlink" href="#s00"><span class="n">00</span> Executive summary</a>
+    <a class="navlink" href="#s01"><span class="n">01</span> Account snapshot</a></div>
+  <div class="navgroup"><h4>Performance</h4>
+    <a class="navlink" href="#s02"><span class="n">02</span> Campaigns</a>
+    <a class="navlink" href="#s03"><span class="n">03</span> Ads</a></div>
+  <div class="navgroup"><h4>Audience &amp; delivery</h4>
+    <a class="navlink" href="#s05"><span class="n">04</span> Placement &amp; platform</a>
+    <a class="navlink" href="#s07"><span class="n">05</span> Demographics</a>
+    <a class="navlink" href="#s08"><span class="n">06</span> Geography</a>
+    <a class="navlink" href="#s09"><span class="n">07</span> Dayparting</a></div>
+  <div class="navgroup"><h4>Data &amp; actions</h4>
+    <a class="navlink" href="#s10"><span class="n">08</span> Data trust</a>
+    <a class="navlink" href="#s11"><span class="n">09</span> Opportunities</a>
+    <a class="navlink" href="#s12"><span class="n">10</span> Action list</a></div>
+</aside>
+
+<main>
+<div class="wrap">
+  <div class="updated"><span class="dot"></span><span class="u-live">Live snapshot</span><span class="u-sep">·</span><span>Pulled Wednesday, August 5, 2026 (advertiser time zone, Australia/Sydney)</span><span class="u-sep">·</span><span id="winLabel"></span></div>
+  <h1 class="display">Paid Media <span class="b">Report</span></h1>
+  <p class="lead">Miyagi - Heart Smart Australia, Meta ad account act_510603536638743 (currency AUD, advertiser time zone Australia/Sydney). This is a webinar / high-ticket funnel driven by a health quiz, so the headline is website leads and cost per lead, not ROAS. Webinar attendance and the high-ticket close happen offline and are not in this data. Use the range selector to switch the window.</p>
+
+  <div class="rangebar" id="rangebar" role="tablist" aria-label="Reporting range"></div>
+  <div class="pills" id="heroPills"></div>
+
+  <div class="callout" id="rangeNote"></div>
+  <div class="callout amber"><b>Read ROAS with care.</b> The Meta pixel only sees front-end quiz events (website leads / registrations). Webinar attendance and the high-ticket program sale close offline and are <b>not</b> tracked here, so the pixel ROAS shown is a front-end figure, not a measure of the business's true return. Judge performance on website leads and cost per lead, and reconcile against the client's CRM / webinar platform.</div>
+
+  <section id="s00"><div class="sec-head"><span class="sec-eyebrow">Overview</span><span class="sec-num">00</span></div>
+    <h2>Executive <span class="b">summary</span></h2><p id="execSummary"></p></section>
+
+  <section id="s01"><div class="sec-head"><span class="sec-eyebrow">Overview</span><span class="sec-num">01</span></div>
+    <h2>Account <span class="b">snapshot</span></h2><div class="metrics" id="snapMetrics"></div><p class="note" id="snapNote"></p></section>
+
+  <section id="s02"><div class="sec-head"><span class="sec-eyebrow">Performance</span><span class="sec-num">02</span></div>
+    <h2>Campaign <span class="b">performance</span></h2>
+    <p class="note">All campaigns for the selected window, ranked by spend. LEAD = website leads (quiz registrations / applications); VID = video views (awareness). ROAS is front-end pixel value only and is not a revenue measure for this funnel.</p>
+    <table><thead><tr><th>Campaign</th><th>Result</th><th>Cost/result</th><th>ROAS*</th><th>Spend</th><th>CTR</th><th>CPC</th></tr></thead><tbody id="campBody"></tbody><tfoot id="campFoot"></tfoot></table></section>
+
+  <section id="s03"><div class="sec-head"><span class="sec-eyebrow">Performance</span><span class="sec-num">03</span></div>
+    <h2>Ad <span class="b">performance</span></h2>
+    <p class="note">Top 8 ads by spend for the selected window.</p>
+    <table><thead><tr><th>Ad</th><th>Spend</th><th>Result</th><th>ROAS*</th><th>CTR</th></tr></thead><tbody id="adBody"></tbody></table></section>
+
+  <section id="s05"><div class="sec-head"><span class="sec-eyebrow">Audience &amp; delivery</span><span class="sec-num">04</span></div>
+    <h2>Placement &amp; <span class="b">platform</span></h2>
+    <table><thead><tr><th>Platform</th><th>Spend</th><th>CTR</th><th>CPC</th><th>CPM</th></tr></thead><tbody id="platBody"></tbody></table>
+    <table><thead><tr><th>Top positions</th><th>Spend</th><th>CTR</th><th>CPC</th></tr></thead><tbody id="posBody"></tbody></table>
+    <p class="note">Device breakdown: Meta returned no impression-device split for this account, so that view is unavailable (not shown rather than guessed).</p></section>
+
+  <section id="s07"><div class="sec-head"><span class="sec-eyebrow">Audience &amp; delivery</span><span class="sec-num">05</span></div>
+    <h2>Demographics</h2>
+    <table><thead><tr><th>Age</th><th>Spend</th><th>CTR</th><th>CPC</th></tr></thead><tbody id="ageBody"></tbody></table>
+    <table><thead><tr><th>Gender</th><th>Spend</th><th>CTR</th><th>CPC</th></tr></thead><tbody id="genBody"></tbody></table></section>
+
+  <section id="s08"><div class="sec-head"><span class="sec-eyebrow">Audience &amp; delivery</span><span class="sec-num">06</span></div>
+    <h2>Geography</h2><p class="note">Australian states/territories by spend.</p>
+    <table><thead><tr><th>State</th><th>Spend</th><th>CTR</th><th>CPC</th></tr></thead><tbody id="regBody"></tbody></table></section>
+
+  <section id="s09"><div class="sec-head"><span class="sec-eyebrow">Audience &amp; delivery</span><span class="sec-num">07</span></div>
+    <h2>Dayparting</h2><p class="note">Full 24 hours, advertiser time zone (Australia/Sydney).</p>
+    <table><thead><tr><th>Hour (AEST)</th><th>Spend</th><th>CTR</th><th>CPC</th></tr></thead><tbody id="hourBody"></tbody></table></section>
+
+  <section id="s10"><div class="sec-head"><span class="sec-eyebrow">Data &amp; actions</span><span class="sec-num">08</span></div>
+    <h2>Data <span class="b">trust</span></h2>
+    <p>Account-level, current state (does not change with the range selector). The pixel is firing cleanly: every lead campaign returns real Website-lead counts (Meta's <code>offsite_conversion.fb_pixel_lead</code> event), so front-end lead tracking is trustworthy. The real limitation is structural, not technical - the pixel cannot see webinar attendance or the high-ticket close, which happen offline. So cost per lead above is reliable, but pixel ROAS is not a revenue measure. <b>Operational flag:</b> the account is near-paused since Aug 1 (see This Week / This Month), so August windows are thin by choice, not by tracking failure.</p>
+    <table><thead><tr><th>Signal</th><th>State</th><th>Verdict</th></tr></thead><tbody>
+      <tr><td>Website-lead pixel event</td><td>Firing, returns counts on every lead campaign</td><td><span class="tag lead">Healthy</span></td></tr>
+      <tr><td>Offline webinar / high-ticket close</td><td>Not visible to the pixel (closed offline)</td><td><span class="tag oth">CRM gap</span></td></tr>
+    </tbody></table>
+    <p class="note"><b>Gap for JV:</b> reconcile quiz leads against webinar registrations, attendance and closed high-ticket sales in the client's CRM / webinar platform to get true cost per attendee and cost per sale. That is the number that should drive budget, not pixel ROAS.</p></section>
+
+  <section id="s11"><div class="sec-head"><span class="sec-eyebrow">Data &amp; actions</span><span class="sec-num">09</span></div>
+    <h2>Opportunities</h2>
+    <p>Account-level, current state. Meta Opportunity Score: <b>93 / 100</b> (very healthy). The recommendation list is short and low-severity - unsurprising for an account this efficient. Sorted by score lift (points).</p>
+    <table><thead><tr><th>Fix</th><th>Estimated impact</th><th>Points</th></tr></thead><tbody>
+      <tr><td>Add 9:16 sound-on vertical video to 3 Reels ads</td><td>8% lower cost per result each</td><td>1 ea</td></tr>
+      <tr><td>Add mixed image + video formats to an ad set</td><td>More conversions per dollar</td><td>1</td></tr>
+    </tbody></table>
+    <p class="note">The bigger lever is not on this list: the account is near-paused since Aug 1. The single biggest opportunity is simply to resume spend behind the proven quiz creative while cost per lead is this low.</p></section>
+
+  <section id="s12"><div class="sec-head"><span class="sec-eyebrow">Data &amp; actions</span><span class="sec-num">10</span></div>
+    <h2>Action list</h2>
+    <ol class="actions">
+      <li><b>Resume spend - this is the headline.</b> The account has been near-paused since Aug 1 (A$207 on Aug 1, nothing Aug 2 to 4, A$220 on Aug 5) after running A$1,600 to A$2,000/day through July at a blended <b>A$7.09 per lead</b>. If the webinar funnel is still live, the biggest lever by far is to turn spend back on behind the proven creative.</li>
+      <li><b>Scale the standout lead creative.</b> "Ad Stack 1 | Hook 1 Body 2 CTA 04" drove 2,528 leads at A$2.57 in July at a 14.35% CTR - the best volume-and-efficiency combination in the account. "TEXT 1 | Application 3" (A$4.74) and "Copy 1: Cholesterol News" (19.48% CTR) are also strong. Feed budget to these angles first.</li>
+      <li><b>Watch the two-campaign split.</b> July leaned on two campaigns: Quiz TOF (5,212 leads at A$5.15, cheap volume) and Website Application (1,896 leads at A$12.42, higher-intent). Confirm with the client which lead type actually converts to webinar attendance and high-ticket sales before rebalancing budget between them.</li>
+      <li><b>Reconcile against the CRM / webinar platform.</b> The high-ticket close is offline, so pull webinar registration, attendance and closed-sale numbers and divide by spend to get true cost per attendee and cost per sale. That is the number that should drive budget, not the 1.14 to 1.84x pixel ROAS.</li>
+      <li><b>Lean into the 55+ and female audience.</b> Spend concentrates on 65+ (A$25,588 in July) and 55-64 (A$16,405), and female (A$39,057 vs A$10,897 male) - exactly right for a heart-health quiz. These brackets also run the highest CTR, so the targeting is working; keep it.</li>
+      <li><b>Hold Facebook Feed as the engine.</b> Feed took A$32,700 of July spend at an 11.23% CTR and A$0.23 CPC; Facebook Reels is the strong second (A$12,679). Instagram runs a much lower 4.69% CTR at 3x the CPC - keep it a minority of budget.</li>
+      <li><b>Apply the two low-effort Meta fixes.</b> Add 9:16 sound-on video to the flagged Reels ads and add a mixed image + video format to an ad set - both are +1-point opportunities on an already-healthy 93/100 account.</li>
+      <li><b>Keep delivery national.</b> NSW, VIC and QLD carry the volume at ~10% CTR and A$0.30 CPC; the account is well-distributed across AU states, so hold that spread and monitor frequency (July ~3.1x).</li>
+    </ol></section>
+
+  <footer><div class="tagline">Heart Smart Australia · Meta Ads Report</div><p id="footNote"></p></footer>
+</div>
+</main>
+
+<script id="rangesData" type="application/json">{"order": ["last-week", "this-week", "this-month", "last-month"], "pull": "Wednesday, August 5, 2026 (advertiser time zone, Australia/Sydney)", "currency": "AUD", "ranges": {"last-month": {"label": "Last Month", "window": "Jul 1 to Jul 31, 2026", "kind": "Completed month", "live": false, "days": 31, "hero": {"spend_day": 1640.0, "purch": 0, "cpp": 0, "leads": 7108, "cpl": 7.09, "roas": 1.84}, "snapshot": {"spend": 50840.15, "impr": "1,707,713", "clicks": "167,567", "ctr": "9.81%", "cpc": "A$0.30", "cpm": "A$29.77", "reach": "544,079", "freq": "3.14", "roas": 1.84}, "summary": "Last Month (Jul 1 to Jul 31, 2026) ran A$50,840.15 and generated 7,108 website leads (quiz registrations and applications) at A$7.09 each, A$1,640.00/day. Account CTR 9.81% - exceptionally high, driven by the quiz-funnel creative. The Quiz TOF campaign carried volume (5,212 leads at A$5.15) while the Application campaign drove intent (1,896 leads at A$12.42). This is a webinar / high-ticket funnel: the pixel sees front-end quiz leads only; webinar attendance and the high-ticket close happen offline, so the 1.84x pixel ROAS reflects front-end value only, not true revenue. This period is fully settled.", "campaigns": [{"name": "HSA | Quiz | Leads | TOF | ABO", "rc": 5212, "rl": "LEAD", "cpr": "A$5.15", "spend": 26832.67, "ctr": "12.29%", "cpc": "A$0.23", "roas": "1.23"}, {"name": "HSA | Website: Lead | Application", "rc": 1896, "rl": "LEAD", "cpr": "A$12.42", "spend": 23543.34, "ctr": "7.30%", "cpc": "A$0.52", "roas": "2.57"}, {"name": "Awareness | Video ThruPlay | Cold Expansion", "rc": 28007, "rl": "VID", "cpr": "A$0.02", "spend": 464.14, "ctr": "2.54%", "cpc": "A$0.16", "roas": "-"}], "camp_total": {"spend": 50840.15, "purch": 0, "leads": 7108}, "ads": [{"name": "V1 | Video - Reels 6", "spend": 13822.61, "rc": 745, "rl": "LEAD", "roas": "1.59", "ctr": "7.19%"}, {"name": "HS_Ads 2026-06-03 | Ad 03", "spend": 8312.25, "rc": 614, "rl": "LEAD", "roas": "1.32", "ctr": "9.88%"}, {"name": "Reel 01 - Heart", "spend": 6626.28, "rc": 956, "rl": "LEAD", "roas": "0.83", "ctr": "9.06%"}, {"name": "Ad Stack 1 | Hook 1 Body 2 CTA 04", "spend": 6502.9, "rc": 2528, "rl": "LEAD", "roas": "2.54", "ctr": "14.35%"}, {"name": "TEXT 1 | Application 3", "spend": 3656.86, "rc": 772, "rl": "LEAD", "roas": "4.51", "ctr": "7.69%"}, {"name": "V1 | Video - Reels 3", "spend": 2386.02, "rc": 142, "rl": "LEAD", "roas": "4.61", "ctr": "7.46%"}, {"name": "V1 | Video - Reels 2", "spend": 1898.32, "rc": 128, "rl": "LEAD", "roas": "5.79", "ctr": "8.57%"}, {"name": "Ad Stack 1 | Hook 1 Body 2 CTA 05", "spend": 1843.68, "rc": 448, "rl": "LEAD", "roas": "-", "ctr": "14.20%"}], "platform": [["Facebook", 44022.34, "10.30%", "A$0.28", "A$28.42"], ["Instagram", 6389.76, "4.69%", "A$0.94", "A$44.25"], ["Threads", 287.96, "7.11%", "A$0.43", "A$30.62"], ["Audience Network", 140.09, "12.64%", "A$0.22", "A$27.88"]], "position": [["Feed", 32699.81, "11.23%", "A$0.23"], ["Facebook Reels", 12678.51, "5.72%", "A$0.64"], ["Instagram Stories", 1876.42, "6.42%", "A$0.89"], ["Instagram Reels", 1598.86, "5.14%", "A$0.99"], ["Facebook Stories", 992.5, "7.94%", "A$0.97"], ["Instream video", 425.26, "8.23%", "A$0.75"], ["Threads feed", 287.96, "7.11%", "A$0.43"], ["Rewarded video", 124.86, "14.33%", "A$0.20"]], "age": [["18-24", 95.64, "8.36%", "A$0.35"], ["25-34", 833.99, "10.90%", "A$0.34"], ["35-44", 1342.88, "8.58%", "A$0.30"], ["45-54", 6575.32, "7.88%", "A$0.31"], ["55-64", 16404.57, "8.78%", "A$0.32"], ["65+", 25587.6, "11.34%", "A$0.29"]], "gender": [["Female", 39057.35, "10.92%", "A$0.29"], ["Male", 10897.17, "6.76%", "A$0.36"]], "region": [["New South Wales", 15265.2, "9.77%", "A$0.31"], ["Victoria", 13027.85, "9.60%", "A$0.32"], ["Queensland", 10986.22, "10.14%", "A$0.30"], ["Western Australia", 5768.41, "9.86%", "A$0.30"], ["South Australia", 3780.1, "9.59%", "A$0.28"], ["Tasmania", 1083.93, "9.97%", "A$0.24"], ["ACT", 660.36, "10.71%", "A$0.28"], ["Northern Territory", 267.33, "8.66%", "A$0.31"]], "hourly": [[1405.26, "9.35%", "A$0.31"], [806.83, "8.68%", "A$0.38"], [584.43, "8.80%", "A$0.41"], [660.66, "8.84%", "A$0.44"], [845.43, "9.54%", "A$0.42"], [1281.75, "9.46%", "A$0.42"], [1889.38, "9.89%", "A$0.40"], [2274.88, "10.33%", "A$0.38"], [2263.44, "10.23%", "A$0.37"], [2227.03, "10.38%", "A$0.34"], [1875.66, "10.20%", "A$0.33"], [1739.48, "10.33%", "A$0.31"], [1870.25, "10.58%", "A$0.28"], [2164.48, "10.69%", "A$0.27"], [2058.26, "10.32%", "A$0.27"], [2158.45, "9.85%", "A$0.28"], [2404.32, "9.73%", "A$0.28"], [2764.12, "9.75%", "A$0.28"], [3370.87, "9.92%", "A$0.27"], [3698.84, "9.47%", "A$0.28"], [4019.26, "9.52%", "A$0.27"], [3944.3, "9.47%", "A$0.28"], [2826.92, "9.60%", "A$0.29"], [1705.85, "9.27%", "A$0.31"]]}, "last-week": {"label": "Last Week", "window": "Mon Jul 27 to Sun Aug 2, 2026", "kind": "Completed week (Mon to Sun)", "live": false, "days": 7, "hero": {"spend_day": 1376.48, "purch": 0, "cpp": 0, "leads": 1175, "cpl": 8.14, "roas": 1.14}, "snapshot": {"spend": 9635.38, "impr": "303,192", "clicks": "29,935", "ctr": "9.87%", "cpc": "A$0.32", "cpm": "A$31.78", "reach": "194,616", "freq": "1.56", "roas": 1.14}, "summary": "Last Week (Mon Jul 27 to Sun Aug 2, 2026) ran A$9,635.38 and generated 1,175 website leads (quiz registrations and applications) at A$8.14 each, A$1,376.48/day. Account CTR 9.87%. The Quiz TOF campaign led on volume (760 leads at A$6.63); the Application campaign added 415 at A$10.90. Note the account then paused almost entirely from Aug 1 - see the This Week and This Month tabs. The pixel sees front-end quiz leads only; webinar attendance and the high-ticket close are offline, so the 1.14x pixel ROAS is a front-end figure. This period is fully settled.", "campaigns": [{"name": "HSA | Quiz | Leads | TOF | ABO", "rc": 760, "rl": "LEAD", "cpr": "A$6.63", "spend": 5037.51, "ctr": "12.97%", "cpc": "A$0.25", "roas": "2.18"}, {"name": "HSA | Website: Lead | Application", "rc": 415, "rl": "LEAD", "cpr": "A$10.90", "spend": 4523.54, "ctr": "6.91%", "cpc": "A$0.49", "roas": "-"}, {"name": "Awareness | Video ThruPlay | Cold Expansion", "rc": 3203, "rl": "VID", "cpr": "A$0.02", "spend": 74.33, "ctr": "1.66%", "cpc": "A$0.38", "roas": "-"}], "camp_total": {"spend": 9635.38, "purch": 0, "leads": 1175}, "ads": [{"name": "V1 | Video - Reels 6", "spend": 2619.2, "rc": 110, "rl": "LEAD", "roas": "-", "ctr": "6.44%"}, {"name": "HS_Ads 2026-06-03 | Ad 03", "spend": 1520.85, "rc": 88, "rl": "LEAD", "roas": "7.23", "ctr": "8.42%"}, {"name": "Reel 01 - Heart", "spend": 1421.93, "rc": 172, "rl": "LEAD", "roas": "-", "ctr": "10.77%"}, {"name": "TEXT 1 | Application 3", "spend": 1273.07, "rc": 268, "rl": "LEAD", "roas": "-", "ctr": "7.33%"}, {"name": "Ad Stack 1 | Hook 1 Body 2 CTA 05", "spend": 1082.22, "rc": 237, "rl": "LEAD", "roas": "-", "ctr": "14.25%"}, {"name": "Copy 1: Cholesterol News", "spend": 493.46, "rc": 119, "rl": "LEAD", "roas": "-", "ctr": "19.48%"}, {"name": "Ad Stack 1 | Hook 1 Body 2 CTA 04", "spend": 420.18, "rc": 132, "rl": "LEAD", "roas": "-", "ctr": "14.42%"}, {"name": "V1 | Video - Reels 3", "spend": 305.01, "rc": 18, "rl": "LEAD", "roas": "-", "ctr": "6.33%"}], "platform": [["Facebook", 8332.55, "10.52%", "A$0.29", "A$30.83"], ["Instagram", 1232.78, "4.38%", "A$0.92", "A$40.22"], ["Threads", 48.77, "7.03%", "A$0.51", "A$35.73"], ["Audience Network", 21.28, "6.53%", "A$0.36", "A$23.54"]], "position": [["Feed", 6469.49, "11.13%", "A$0.25"], ["Facebook Reels", 2081.81, "5.35%", "A$0.82"], ["Instagram Stories", 371.76, "5.66%", "A$0.94"], ["Instagram Reels", 306.13, "5.37%", "A$0.97"], ["Facebook Stories", 186.31, "7.63%", "A$1.16"], ["Instream video", 100.73, "8.45%", "A$0.86"], ["Threads feed", 48.77, "7.03%", "A$0.51"], ["Facebook notifications", 29.05, "10.43%", "A$1.21"]], "age": [["18-24", 21.52, "8.35%", "A$0.36"], ["25-34", 151.87, "10.99%", "A$0.33"], ["35-44", 254.28, "9.02%", "A$0.30"], ["45-54", 1567.41, "8.31%", "A$0.30"], ["55-64", 3547.91, "9.15%", "A$0.32"], ["65+", 4092.34, "11.68%", "A$0.33"]], "gender": [["Female", 7572.47, "10.85%", "A$0.30"], ["Male", 1900.99, "6.58%", "A$0.42"]], "region": [["New South Wales", 2892.75, "9.83%", "A$0.33"], ["Victoria", 2611.27, "9.82%", "A$0.34"], ["Queensland", 1954.11, "10.24%", "A$0.31"], ["Western Australia", 1070.04, "9.53%", "A$0.32"], ["South Australia", 724.97, "9.70%", "A$0.29"], ["Tasmania", 199.71, "9.85%", "A$0.26"], ["ACT", 128.0, "11.26%", "A$0.28"], ["Northern Territory", 54.38, "8.03%", "A$0.38"]], "hourly": [[344.47, "8.62%", "A$0.38"], [209.34, "9.05%", "A$0.43"], [140.0, "9.30%", "A$0.45"], [156.09, "9.19%", "A$0.49"], [203.52, "9.94%", "A$0.47"], [285.55, "9.87%", "A$0.47"], [369.01, "9.34%", "A$0.48"], [310.92, "9.97%", "A$0.44"], [307.15, "8.58%", "A$0.51"], [273.07, "9.77%", "A$0.42"], [229.56, "9.30%", "A$0.42"], [205.33, "10.98%", "A$0.29"], [243.86, "10.21%", "A$0.30"], [277.45, "11.17%", "A$0.27"], [275.17, "10.44%", "A$0.29"], [298.98, "10.09%", "A$0.29"], [427.52, "10.07%", "A$0.29"], [529.65, "9.98%", "A$0.28"], [658.3, "10.27%", "A$0.26"], [747.44, "9.44%", "A$0.28"], [898.68, "9.95%", "A$0.27"], [1047.62, "10.20%", "A$0.29"], [756.62, "9.69%", "A$0.33"], [440.08, "9.65%", "A$0.34"]]}, "this-week": {"label": "This Week", "window": "Mon Aug 3 to Wed Aug 5, 2026 (to date)", "kind": "Week-to-date (Mon to Sun, in progress)", "live": true, "days": 3, "hero": {"spend_day": 74.71, "purch": 0, "cpp": 0, "leads": 2, "cpl": 111.92, "roas": 0}, "snapshot": {"spend": 224.14, "impr": "6,150", "clicks": "560", "ctr": "9.11%", "cpc": "A$0.40", "cpm": "A$36.45", "reach": "5,618", "freq": "1.09", "roas": 0}, "summary": "This Week (Mon Aug 3 to Wed Aug 5, 2026, to date) ran only A$224.14 and shows 2 settled website leads so far (A$111.92 blended). The account is effectively paused this week: no spend on Aug 3 or Aug 4, and only a small A$220 test on Aug 5. Treat these as early floors under Meta's attribution lag - and note this is a near-total pullback from the A$1,600 to A$2,000/day the account ran through July. Check Last Week and Last Month for the account at full tilt.", "campaigns": [{"name": "HSA | Quiz | Leads | TOF | ABO", "rc": 2, "rl": "LEAD", "cpr": "A$101.71", "spend": 203.41, "ctr": "9.53%", "cpc": "A$0.40", "roas": "-"}, {"name": "HSA | MOF | Website: Lead | Application", "rc": 0, "rl": "LEAD", "cpr": "-", "spend": 19.76, "ctr": "6.82%", "cpc": "A$0.38", "roas": "-"}, {"name": "HSA | Website: Lead | Application", "rc": 0, "rl": "LEAD", "cpr": "-", "spend": 0.66, "ctr": "0.00%", "cpc": "n/a", "roas": "-"}, {"name": "Awareness | Video ThruPlay | Cold Expansion", "rc": 2, "rl": "VID", "cpr": "A$0.16", "spend": 0.31, "ctr": "0.00%", "cpc": "n/a", "roas": "-"}], "camp_total": {"spend": 224.14, "purch": 0, "leads": 2}, "ads": [{"name": "Ad Stack 1 | Hook 1 Body 2 CTA 05", "spend": 142.35, "rc": 1, "rl": "LEAD", "roas": "-", "ctr": "7.91%"}, {"name": "Reel 04 - Blood Markers", "spend": 42.19, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "14.73%"}, {"name": "Copy 1: Dr Ross News", "spend": 10.77, "rc": 1, "rl": "LEAD", "roas": "-", "ctr": "13.57%"}, {"name": "Blood Panel Static: White", "spend": 9.93, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "7.94%"}, {"name": "UGC Reel 4", "spend": 7.44, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "6.16%"}, {"name": "Ad Stack 1 | Hook 1 Body 2 CTA 03", "spend": 4.06, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "5.92%"}, {"name": "Ad Stack 1 | Hook 1 Body 2 CTA 04", "spend": 3.77, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "7.14%"}, {"name": "UGC Reel 2", "spend": 2.38, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "2.38%"}], "platform": [["Facebook", 207.16, "9.64%", "A$0.38", "A$36.30"], ["Instagram", 27.43, "2.09%", "A$3.05", "A$63.64"], ["Threads", 0.11, "8.33%", "A$0.11", "A$9.03"]], "position": [["Feed", 200.06, "9.90%", "A$0.37"], ["Facebook Reels", 24.95, "3.09%", "A$1.66"], ["Instagram Reels", 4.05, "1.67%", "A$2.03"], ["Instagram Stories", 3.9, "4.84%", "A$1.30"], ["Instream video", 0.86, "0.00%", "n/a"], ["Facebook Stories", 0.64, "0.00%", "n/a"]], "age": [["18-24", 0.4, "3.70%", "A$0.40"], ["25-34", 4.07, "5.26%", "A$0.51"], ["35-44", 13.19, "4.38%", "A$0.57"], ["45-54", 42.28, "7.08%", "A$0.48"], ["55-64", 63.94, "8.70%", "A$0.38"], ["65+", 100.26, "12.02%", "A$0.37"]], "gender": [["Female", 158.91, "10.29%", "A$0.38"], ["Male", 61.97, "7.03%", "A$0.44"]], "region": [["New South Wales", 78.36, "9.15%", "A$0.48"], ["Victoria", 49.15, "9.00%", "A$0.38"], ["Queensland", 43.3, "8.40%", "A$0.40"], ["Western Australia", 29.91, "8.99%", "A$0.42"], ["South Australia", 22.24, "11.09%", "A$0.39"], ["Tasmania", 5.59, "12.69%", "A$0.22"], ["ACT", 4.71, "3.16%", "A$1.57"], ["Northern Territory", 1.44, "7.32%", "A$0.48"]], "hourly": [[0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [7.42, "8.80%", "A$0.30"], [209.44, "9.00%", "A$0.41"], [7.28, "11.81%", "A$0.24"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"]]}, "this-month": {"label": "This Month", "window": "Aug 1 to Aug 5, 2026", "kind": "Month-to-date (in progress)", "live": true, "days": 5, "hero": {"spend_day": 86.31, "purch": 0, "cpp": 0, "leads": 20, "cpl": 21.49, "roas": 0}, "snapshot": {"spend": 431.53, "impr": "11,433", "clicks": "1,039", "ctr": "9.09%", "cpc": "A$0.42", "cpm": "A$37.74", "reach": "10,859", "freq": "1.05", "roas": 0}, "summary": "This Month (Aug 1 to Aug 5, 2026) ran A$431.53 and shows 20 website leads so far at A$21.49 each, A$86.31/day. August is a near-total pullback: A$207 on Aug 1, nothing Aug 2 to 4, and a small A$220 on Aug 5, versus roughly A$1,600 to A$2,000/day through July. So both cost per lead and volume here reflect a paused account and attribution lag, not a performance change - the underlying quiz creative still runs an ~9% CTR. Check Last Month for the account at full scale.", "campaigns": [{"name": "HSA | Quiz | Leads | TOF | ABO", "rc": 10, "rl": "LEAD", "cpr": "A$30.50", "spend": 304.98, "ctr": "10.37%", "cpc": "A$0.38", "roas": "-"}, {"name": "HSA | Website: Lead | Application", "rc": 10, "rl": "LEAD", "cpr": "A$10.51", "spend": 105.08, "ctr": "6.71%", "cpc": "A$0.59", "roas": "-"}, {"name": "HSA | MOF | Website: Lead | Application", "rc": 0, "rl": "LEAD", "cpr": "-", "spend": 19.76, "ctr": "6.82%", "cpc": "A$0.38", "roas": "-"}, {"name": "Awareness | Video ThruPlay | Cold Expansion", "rc": 54, "rl": "VID", "cpr": "A$0.03", "spend": 1.71, "ctr": "0.43%", "cpc": "A$1.71", "roas": "-"}], "camp_total": {"spend": 431.53, "purch": 0, "leads": 20}, "ads": [{"name": "Ad Stack 1 | Hook 1 Body 2 CTA 05", "spend": 166.32, "rc": 5, "rl": "LEAD", "roas": "-", "ctr": "8.80%"}, {"name": "V1 | Video - Reels 6", "spend": 66.97, "rc": 2, "rl": "LEAD", "roas": "-", "ctr": "6.49%"}, {"name": "Reel 04 - Blood Markers", "spend": 42.82, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "14.35%"}, {"name": "HS_Ads 2026-06-03 | Ad 03", "spend": 36.19, "rc": 2, "rl": "LEAD", "roas": "-", "ctr": "9.41%"}, {"name": "Reel 01 - Heart", "spend": 26.95, "rc": 2, "rl": "LEAD", "roas": "-", "ctr": "9.61%"}, {"name": "TEXT 1 | Application 3", "spend": 24.93, "rc": 6, "rl": "LEAD", "roas": "-", "ctr": "7.51%"}, {"name": "Copy 1: Cholesterol News", "spend": 9.55, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "20.25%"}, {"name": "Blood Panel Static: White", "spend": 9.93, "rc": 0, "rl": "LEAD", "roas": "-", "ctr": "7.94%"}], "platform": [["Facebook", 376.92, "9.61%", "A$0.38", "A$36.03"], ["Instagram", 53.6, "3.46%", "A$1.68", "A$57.89"], ["Threads", 0.76, "2.70%", "A$0.76", "A$20.63"], ["Audience Network", 0.24, "11.11%", "A$0.24", "A$27.14"]], "position": [["Feed", 327.03, "10.10%", "A$0.35"], ["Facebook Reels", 61.59, "4.54%", "A$0.93"], ["Instagram Stories", 14.71, "3.79%", "A$1.84"], ["Instagram Reels", 13.37, "5.97%", "A$0.84"], ["Facebook Stories", 7.28, "9.86%", "A$1.04"], ["Instream video", 5.57, "2.74%", "A$2.78"], ["Threads feed", 0.76, "2.70%", "A$0.76"], ["Facebook Reels overlay", 0.46, "3.57%", "A$0.46"]], "age": [["18-24", 1.06, "5.71%", "A$0.53"], ["25-34", 5.76, "5.65%", "A$0.44"], ["35-44", 20.43, "4.90%", "A$0.57"], ["45-54", 75.25, "7.79%", "A$0.40"], ["55-64", 141.36, "8.39%", "A$0.43"], ["65+", 187.67, "11.52%", "A$0.40"]], "gender": [["Female", 319.25, "10.15%", "A$0.40"], ["Male", 106.59, "6.67%", "A$0.48"]], "region": [["New South Wales", 127.12, "9.37%", "A$0.45"], ["Victoria", 93.74, "8.51%", "A$0.42"], ["Queensland", 75.54, "9.33%", "A$0.40"], ["Western Australia", 73.98, "8.99%", "A$0.37"], ["South Australia", 41.94, "9.68%", "A$0.45"], ["Tasmania", 8.54, "12.10%", "A$0.25"], ["ACT", 7.1, "2.52%", "A$1.78"], ["Northern Territory", 3.56, "9.72%", "A$0.51"]], "hourly": [[72.29, "8.45%", "A$0.39"], [52.18, "8.86%", "A$0.47"], [26.19, "8.17%", "A$0.53"], [23.05, "11.25%", "A$0.43"], [22.84, "10.96%", "A$0.40"], [10.84, "9.70%", "A$0.47"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [7.42, "8.80%", "A$0.30"], [209.44, "9.00%", "A$0.41"], [7.28, "11.81%", "A$0.24"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"], [0, "-", "-"]]}}}</script>
+<script>
+(function(){
+  var DATA = JSON.parse(document.getElementById('rangesData').textContent);
+  var root = document.documentElement;
+  function A(n){ return 'A$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+  function A0(n){ return 'A$'+Number(n).toLocaleString('en-US',{maximumFractionDigits:0}); }
+  var RL={PUR:'purchases',LEAD:'leads',REG:'registrations',APPT:'appointments',APP:'applications',VID:'video views'};
+  function rTag(rl){ var c = rl==='PUR'?'pur':(rl==='LEAD'?'lead':'oth'); return c; }
+  function td(cls,html){ return '<td'+(cls?' class="'+cls+'"':'')+'>'+html+'</td>'; }
+  function fill(id, rows){ var h=''; rows.forEach(function(r){ h+='<tr>'+td('',r[0]); for(var i=1;i<r.length;i++){ h+=td('', (typeof r[i]==='number')?A(r[i]):r[i]); } h+='</tr>'; }); document.getElementById(id).innerHTML=h; }
+
+  function render(key){
+    var r=DATA.ranges[key], h=r.hero, s=r.snapshot;
+    document.getElementById('winLabel').textContent = r.kind+': '+r.window;
+    document.getElementById('heroPills').innerHTML =
+      '<div class="pill"><b>'+A(h.spend_day)+'</b> <span>per day</span></div>'+
+      '<div class="pill"><b>'+Number(h.leads).toLocaleString('en-US')+'</b> <span>website leads</span></div>'+
+      '<div class="pill"><b>'+A(h.cpl)+'</b> <span>per lead</span></div>'+
+      '<div class="pill"><b>'+s.ctr+'</b> <span>account CTR</span></div>';
+    document.getElementById('rangeNote').innerHTML = r.live
+      ? '<b>'+r.label+' is in progress.</b> This window ('+r.window+') is still running, so totals are partial and the last two to three days are still settling under Meta’s attribution lag. Treat counts as floors.'
+      : '<b>'+r.label+' is a fully settled period.</b> This window ('+r.window+') is complete, so figures are final aside from minor late attribution.';
+    document.getElementById('execSummary').textContent = r.summary;
+    document.getElementById('snapMetrics').innerHTML =
+      '<div class="metric"><div class="k">Total spend</div><div class="v">'+A(s.spend)+'</div><div class="d">'+A(h.spend_day)+' / day over '+r.days+' days</div></div>'+
+      '<div class="metric"><div class="k">Impressions</div><div class="v">'+s.impr+'</div><div class="d">'+s.clicks+' clicks · '+s.ctr+' CTR</div></div>'+
+      '<div class="metric"><div class="k">Cost per lead</div><div class="v"><span class="b">'+A(h.cpl)+'</span></div><div class="d">blended over lead campaigns</div></div>'+
+      '<div class="metric"><div class="k">Website leads</div><div class="v"><span class="b">'+Number(h.leads).toLocaleString('en-US')+'</span></div><div class="d">'+A(h.cpl)+' each</div></div>';
+    document.getElementById('snapNote').innerHTML = 'Currency AUD. Reach '+s.reach+' at '+s.freq+' frequency, CPM '+s.cpm+', CPC '+s.cpc+'. Front-end pixel ROAS '+s.roas.toFixed(2)+'x (not a true-revenue measure, see note above). Business: Miyagi 1. Account act_510603536638743, advertiser time zone Australia/Sydney.';
+    // campaigns
+    var cb='';
+    r.campaigns.forEach(function(c){
+      var res = c.rc+' <span class="tag '+rTag(c.rl)+'">'+RL[c.rl]+'</span>';
+      cb+='<tr>'+td('',c.name)+td('',res)+td('',c.cpr)+td('', c.roas==='-'?'-':c.roas+'x')+td('',A(c.spend))+td('',c.ctr)+td('',c.cpc)+'</tr>';
+    });
+    document.getElementById('campBody').innerHTML=cb;
+    document.getElementById('campFoot').innerHTML='<tr>'+td('','Account total')+td('', Number(h.leads).toLocaleString('en-US')+' website leads')+td('','-')+td('','-')+td('',A(r.camp_total.spend))+td('',s.ctr)+td('',s.cpc)+'</tr>';
+    // ads
+    var ab='';
+    r.ads.forEach(function(x){
+      var res=x.rc+' <span class="tag '+rTag(x.rl)+'">'+RL[x.rl]+'</span>';
+      ab+='<tr>'+td('strong',x.name)+td('',A(x.spend))+td('',res)+td('', x.roas==='-'?'-':x.roas+'x')+td('',x.ctr)+'</tr>';
+    });
+    document.getElementById('adBody').innerHTML=ab;
+    // breakdowns
+    fill('platBody', r.platform); fill('posBody', r.position); fill('ageBody', r.age); fill('genBody', r.gender); fill('regBody', r.region);
+    var hb=''; r.hourly.forEach(function(row,i){ var hr=(i<10?'0'+i:i)+':00'; hb+='<tr>'+td('',hr)+td('',A(row[0]))+td('',row[1])+td('',row[2])+'</tr>'; });
+    document.getElementById('hourBody').innerHTML=hb;
+    document.getElementById('footNote').innerHTML='Selected window '+r.window+' ('+r.kind+'), advertiser time zone Australia/Sydney, currency AUD. All figures pulled live from the Meta Marketing API for Miyagi - Heart Smart Australia (act_510603536638743) on '+DATA.pull+'. Campaign spend reconciles to the account total of '+A(s.spend)+' to the cent. This is a webinar / high-ticket funnel: the pixel sees front-end quiz leads only and webinar attendance plus the high-ticket close are offline, so pixel ROAS is not a revenue measure. Breakdown tables show spend and engagement only. '+(r.live?'This window is still settling, so counts are floors. ':'')+'Read only: nothing in the ad account was changed by this report.';
+    Array.prototype.forEach.call(document.querySelectorAll('#rangebar button'), function(b){ b.setAttribute('aria-selected', b.dataset.key===key?'true':'false'); });
+  }
+  var bar=document.getElementById('rangebar');
+  DATA.order.forEach(function(key){ var r=DATA.ranges[key]; var b=document.createElement('button'); b.type='button'; b.setAttribute('role','tab'); b.dataset.key=key; b.innerHTML=r.label+'<small>'+r.window.replace(', 2026','')+'</small>'; b.addEventListener('click', function(){ render(key); }); bar.appendChild(b); });
+  render(DATA.order[0]);
+  function rt(){ var l=root.getAttribute('data-theme')==='light'; var b=document.getElementById('themeToggle'); b.querySelector('.ic').innerHTML=l?'&#9728;':'&#9790;'; b.querySelector('.lbl').textContent=l?'Day mode':'Night mode'; }
+  window.__toggleTheme=function(){ var n=root.getAttribute('data-theme')==='light'?'dark':'light'; root.setAttribute('data-theme',n); try{localStorage.setItem('hsa-theme',n);}catch(e){} rt(); };
+  rt();
+})();
+</script>
+</body>
+</html>

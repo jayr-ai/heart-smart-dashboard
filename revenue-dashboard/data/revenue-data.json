@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T12:00:00.000Z",
+  "lastUpdated": "2026-08-06T20:45:00.000Z",
   "summary": {
     "totalRevenue": 0,
     "stripeRevenue": 0,
@@ -16,5 +16,6 @@
     }
   ],
   "monthlyData": [],
-  "productData": []
+  "productData": [],
+  "transactionData": []
 }

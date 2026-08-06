@@ -1,10 +1,10 @@
 :root {
-    --plane: #0F1710;
-    --surface: #172114;
-    --raised: #1C2A24;
+    --plane: #0a0e1a;
+    --surface: #1a1f2e;
+    --raised: #242d3d;
     --ink: #EDEDEE;
-    --ink-2: #A9B6A4;
-    --muted: #8A9887;
+    --ink-2: #8a92a8;
+    --muted: #7a8496;
     --accent: #FF5252;
     --accent-dim: #C41C3B;
     --mint: #E63946;
@@ -46,8 +46,8 @@ body::before {
     pointer-events: none;
     z-index: 0;
     background:
-        radial-gradient(1100px 620px at 12% -8%, rgba(255, 82, 82, 0.07), transparent 62%),
-        radial-gradient(900px 520px at 88% 0%, rgba(255, 82, 82, 0.055), transparent 60%);
+        radial-gradient(1100px 620px at 12% -8%, rgba(150, 100, 200, 0.05), transparent 62%),
+        radial-gradient(900px 520px at 88% 0%, rgba(100, 150, 255, 0.04), transparent 60%);
 }
 
 .container {
@@ -84,10 +84,10 @@ body::before {
 
 @keyframes glowPulse {
     0%, 100% {
-        box-shadow: 0 0 20px rgba(255, 82, 82, 0.3);
+        box-shadow: 0 0 20px rgba(255, 82, 82, 0.2);
     }
     50% {
-        box-shadow: 0 0 40px rgba(255, 82, 82, 0.5);
+        box-shadow: 0 0 40px rgba(255, 82, 82, 0.3);
     }
 }
 

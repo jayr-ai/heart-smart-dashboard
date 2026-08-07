@@ -749,6 +749,16 @@ function viewExec(metrics, prior, basis) {
   const tot = closerNow.length ? sumAgents(closerNow) : derive(blankMetrics());
   const prv = closerPrev.length ? sumAgents(closerPrev) : derive(blankMetrics());
 
+  // Merge cash breakdown totals from __period_totals__
+  const cashTotals = metrics.get('__period_totals__') || blankMetrics();
+  const cashPrv = prior.get('__period_totals__') || blankMetrics();
+  tot.actualCashCollected = cashTotals.actualCashCollected;
+  tot.agentDrivenSales = cashTotals.agentDrivenSales;
+  tot.lowTicketSales = cashTotals.lowTicketSales;
+  prv.actualCashCollected = cashPrv.actualCashCollected;
+  prv.agentDrivenSales = cashPrv.agentDrivenSales;
+  prv.lowTicketSales = cashPrv.lowTicketSales;
+
   // ---- headline tiles with period-over-period movement
   const s1 = el('section');
   s1.appendChild(el('div','sec-head',

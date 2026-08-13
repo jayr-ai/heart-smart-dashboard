@@ -152,8 +152,8 @@
   .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(158px,1fr)); gap:11px; }
   .tile { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
           padding:15px 17px; transition:border-color .3s, transform .3s, box-shadow .3s; }
-  .tile:hover { border-color:rgba(185,218,205,0.42); transform:translateY(-2px);
-    box-shadow:0 10px 30px -12px rgba(0,0,0,0.7), 0 0 24px -6px rgba(185,218,205,0.28); }
+  .tile:hover { border-color:rgba(255,87,87,0.42); transform:translateY(-2px);
+    box-shadow:0 10px 30px -12px rgba(0,0,0,0.7), 0 0 24px -6px rgba(255,87,87,0.28); }
   .tile .label { font-size:10.5px; color:var(--muted); text-transform:uppercase;
                  letter-spacing:0.07em; font-weight:650; }
   .tile .value { font-size:26px; font-weight:600; margin-top:6px; letter-spacing:-0.025em; }
@@ -161,7 +161,7 @@
   .tile .trend { font-size:11.5px; margin-top:4px; color:var(--muted); }
   .tile .trend b { font-weight:650; }
   .up { color:var(--accent); } .down { color:var(--critical); }
-  .cash-breakdown-card { background:rgba(185,218,205,0.08); }
+  .cash-breakdown-card { background:rgba(255,87,87,0.08); }
 
   /* ---- sections ---- */
   section { margin-bottom:34px; }
@@ -191,9 +191,9 @@
          align-items:center; gap:5px; height:100%; }
   .col .bar2 { width:100%; background:var(--accent); border-radius:4px 4px 0 0; min-height:2px;
                transition:filter .2s; }
-  .col.sel .bar2 { box-shadow:0 0 14px rgba(185,218,205,0.6); }
+  .col.sel .bar2 { box-shadow:0 0 14px rgba(255,87,87,0.6); }
   .col.gap .bar2 { background:repeating-linear-gradient(135deg,
-      rgba(248,113,113,0.34) 0 4px, rgba(248,113,113,0.08) 4px 8px); height:100% !important; border-radius:4px; }
+      rgba(255,87,87,0.34) 0 4px, rgba(255,87,87,0.08) 4px 8px); height:100% !important; border-radius:4px; }
   .col .lbl { font-size:9.5px; color:var(--muted); white-space:nowrap; transform:rotate(-45deg);
               transform-origin:center; height:26px; }
   .col:hover .bar2 { filter:brightness(1.18); }
@@ -209,7 +209,7 @@
     z-index:1; font-weight:550; min-width:148px; }
   thead th.agent { z-index:3; }
   td.agent .full { display:block; font-weight:400; font-size:11px; color:var(--muted); }
-  tbody tr:hover td, tbody tr:hover td.agent { background:#1b2718; }
+  tbody tr:hover td, tbody tr:hover td.agent { background:#2E1415; }
   tr.overall td { border-top:1px solid var(--line) !important; font-weight:620; background:var(--raised); }
   tr.overall td.agent { background:var(--raised); }
   .grp { border-left:1px solid var(--line-soft); }
@@ -222,9 +222,9 @@
   .board { display:grid; grid-template-columns:repeat(auto-fit,minmax(268px,1fr)); gap:12px; margin-top:11px; }
   .lb { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
         padding:15px 17px; transition:border-color .3s, transform .3s, box-shadow .3s; }
-  .lb:hover { transform:translateY(-2px); border-color:rgba(185,218,205,0.36);
+  .lb:hover { transform:translateY(-2px); border-color:rgba(255,87,87,0.36);
               box-shadow:0 12px 34px -14px rgba(0,0,0,0.75); }
-  .lb.top { border-color:rgba(185,218,205,0.5); box-shadow:0 0 30px -12px rgba(185,218,205,0.45); }
+  .lb.top { border-color:rgba(255,87,87,0.5); box-shadow:0 0 30px -12px rgba(255,87,87,0.45); }
   .lb-head { display:flex; align-items:center; gap:10px; }
   .medal { font-size:20px; line-height:1; }
   .lb-rank { font-size:11px; color:var(--muted); font-weight:650; letter-spacing:0.05em; }
@@ -232,7 +232,7 @@
   .lb-name .full { display:block; font-size:11px; color:var(--muted); font-weight:400; }
   .delta { margin-left:auto; font-size:11px; font-weight:650; padding:2px 8px;
            border-radius:999px; border:1px solid var(--line); color:var(--ink-2); }
-  .delta.up { color:var(--accent); border-color:rgba(185,218,205,0.45); }
+  .delta.up { color:var(--accent); border-color:rgba(255,87,87,0.45); }
   .delta.down { color:var(--critical); border-color:rgba(248,113,113,0.35); }
   .lb-hero { margin-top:13px; }
   .lb-hero .n { font-size:31px; font-weight:600; letter-spacing:-0.03em; color:var(--accent);
@@ -249,7 +249,7 @@
   .chip { font-size:11px; padding:3px 9px; border-radius:999px; border:1px solid var(--line);
           color:var(--ink-2); background:rgba(237,237,238,0.03); }
   .chip b { color:var(--ink); font-weight:620; }
-  .chip.win { border-color:rgba(185,218,205,0.45); color:var(--accent); }
+  .chip.win { border-color:rgba(255,87,87,0.45); color:var(--accent); }
   .lb.unranked { opacity:.75; }
 
   /* ---- progress ---- */
@@ -278,7 +278,7 @@
 
   /* ---- misc ---- */
   .badge { display:inline-flex; align-items:center; gap:6px; font-size:11.5px; font-weight:600;
-    background:rgba(185,218,205,0.10); border:1px solid rgba(185,218,205,0.34); color:var(--accent);
+    background:rgba(255,87,87,0.10); border:1px solid rgba(255,87,87,0.34); color:var(--accent);
     padding:3px 10px; border-radius:999px; }
   .info { display:inline-flex; align-items:center; justify-content:center; width:15px; height:15px;
     border-radius:50%; border:1px solid var(--line); color:var(--muted); font-size:10px;
@@ -329,8 +329,8 @@
   /* Row states use translucent overlays so they sit correctly on any panel tint
      instead of a hardcoded colour that only matches one of the three. */
   .tier-panel tbody tr:hover td,
-  .tier-panel tbody tr:hover td.agent { background:rgba(237,237,238,0.055); }
-  .tier-panel tr.lead td, .tier-panel tr.lead td.agent { background:var(--tier-wash); }
+  .tier-panel tbody tr:hover td.agent { background:rgba(255,87,87,0.08); }
+  .tier-panel tr.lead td, .tier-panel tr.lead td.agent { background:rgba(255,87,87,0.08); }
   .tier-panel tr.lead td.agent { box-shadow:inset 2px 0 0 var(--tier-spine); }
   .tier-panel tr.overall td, .tier-panel tr.overall td.agent {
     background:rgba(0,0,0,0.22); border-top:1px solid var(--tier-spine) !important;

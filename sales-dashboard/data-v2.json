@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-15T05:39:06.161Z",
+  "synced_at": "2026-08-15T06:18:00.666Z",
   "agents": [
     {
       "n": "Briony Evans",
@@ -81,9 +81,9 @@
       "won": 1,
       "pen": 0,
       "lost": 1,
-      "ns": 4,
+      "ns": 5,
       "mis": 0,
-      "can": 5,
+      "can": 6,
       "pp": 1,
       "ts": 1,
       "rev": 5997,
@@ -154,8 +154,8 @@
       "ns": 2,
       "mis": 0,
       "can": 6,
-      "pp": 1,
-      "ts": 0,
+      "pp": 2,
+      "ts": 1,
       "rev": 4997,
       "cash": 4997
     },
@@ -6305,19 +6305,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-15",
       "hrs": 0,
@@ -6474,19 +6461,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-14",
       "hrs": 0,
@@ -6513,7 +6487,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Russell Keddie",
       "d": "2026-08-13",
       "hrs": 0,
       "di": 0,
@@ -6540,19 +6514,6 @@
     },
     {
       "n": "Nik Toth",
-      "d": "2026-08-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Russell Keddie",
       "d": "2026-08-13",
       "hrs": 0,
       "di": 0,
@@ -6591,19 +6552,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-13",
       "hrs": 0,
@@ -6617,8 +6565,8 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-08-12",
+      "n": "Briony Evans",
+      "d": "2026-08-13",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -6682,7 +6630,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-12",
       "hrs": 0,
       "di": 0,
@@ -6695,7 +6643,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-08-12",
       "hrs": 0,
       "di": 0,
@@ -6825,19 +6773,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-11",
       "hrs": 0,
@@ -6942,19 +6877,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-10",
       "hrs": 0,
@@ -7046,19 +6968,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-09",
       "hrs": 0,
@@ -7085,19 +6994,6 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
-      "d": "2026-08-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-08-08",
       "hrs": 0,
@@ -7164,19 +7060,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-08-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-08-08",
       "hrs": 0,
       "di": 0,
@@ -7203,6 +7086,19 @@
     },
     {
       "n": "Briony Evans",
+      "d": "2026-08-08",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Briony Evans",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -7293,19 +7189,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-07",
       "hrs": 0,
@@ -7319,7 +7202,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-08-06",
       "hrs": 0,
       "di": 0,
@@ -7371,19 +7254,6 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-08-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-08-06",
       "hrs": 0,
@@ -7397,7 +7267,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-06",
       "hrs": 0,
       "di": 0,
@@ -7410,7 +7280,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-08-06",
       "hrs": 0,
       "di": 0,
@@ -7527,34 +7397,8 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Laura Fillmann",
-      "d": "2026-08-04",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -7618,7 +7462,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-04",
       "hrs": 0,
       "di": 0,
@@ -7631,7 +7475,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-08-04",
       "hrs": 0,
       "di": 0,
@@ -7749,19 +7593,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-08-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-08-03",
       "hrs": 0,
       "di": 0,
@@ -7827,19 +7658,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-08-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-08-02",
       "hrs": 0,
       "di": 0,
@@ -7995,19 +7813,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-08-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-01",
       "hrs": 0,
@@ -8021,7 +7826,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-31",
       "hrs": 0,
       "di": 0,
@@ -8034,7 +7839,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Russell Keddie",
       "d": "2026-07-31",
       "hrs": 0,
       "di": 0,
@@ -8073,20 +7878,7 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-31",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Russell Keddie",
+      "n": "Laura Fillmann",
       "d": "2026-07-31",
       "hrs": 0,
       "di": 0,
@@ -8100,19 +7892,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-07-31",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-07-31",
       "hrs": 0,
       "di": 0,
@@ -8138,8 +7917,8 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-07-30",
+      "n": "Briony Evans",
+      "d": "2026-07-31",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -8203,7 +7982,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-30",
       "hrs": 0,
       "di": 0,
@@ -8216,7 +7995,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-30",
       "hrs": 0,
       "di": 0,
@@ -8346,19 +8125,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-29",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-29",
       "hrs": 0,
@@ -8463,19 +8229,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-28",
       "hrs": 0,
@@ -8567,19 +8320,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-27",
       "hrs": 0,
@@ -8606,19 +8346,6 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
-      "d": "2026-07-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-07-26",
       "hrs": 0,
@@ -8697,7 +8424,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Daniel Henderson",
       "d": "2026-07-26",
       "hrs": 0,
       "di": 0,
@@ -8710,7 +8437,7 @@
       "rev": 0
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Briony Evans",
       "d": "2026-07-26",
       "hrs": 0,
       "di": 0,
@@ -8814,19 +8541,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-25",
       "hrs": 0,
@@ -8906,19 +8620,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-07-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-07-24",
       "hrs": 0,
       "di": 0,
@@ -9048,19 +8749,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-23",
       "hrs": 0,
@@ -9074,7 +8762,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-22",
       "hrs": 0,
       "di": 0,
@@ -9087,7 +8775,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Russell Keddie",
       "d": "2026-07-22",
       "hrs": 0,
       "di": 0,
@@ -9126,20 +8814,7 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Russell Keddie",
+      "n": "Laura Fillmann",
       "d": "2026-07-22",
       "hrs": 0,
       "di": 0,
@@ -9165,19 +8840,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-22",
       "hrs": 0,
@@ -9191,8 +8853,8 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-07-21",
+      "n": "Briony Evans",
+      "d": "2026-07-22",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -9256,7 +8918,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-21",
       "hrs": 0,
       "di": 0,
@@ -9269,7 +8931,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-21",
       "hrs": 0,
       "di": 0,
@@ -9387,19 +9049,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-07-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-07-20",
       "hrs": 0,
       "di": 0,
@@ -9465,19 +9114,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-07-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-07-19",
       "hrs": 0,
       "di": 0,
@@ -9633,19 +9269,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-18",
       "hrs": 0,
@@ -9659,7 +9282,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-17",
       "hrs": 0,
       "di": 0,
@@ -9672,7 +9295,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Russell Keddie",
       "d": "2026-07-17",
       "hrs": 0,
       "di": 0,
@@ -9711,20 +9334,7 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Russell Keddie",
+      "n": "Laura Fillmann",
       "d": "2026-07-17",
       "hrs": 0,
       "di": 0,
@@ -9738,19 +9348,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-07-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-07-17",
       "hrs": 0,
       "di": 0,
@@ -9776,8 +9373,8 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-07-16",
+      "n": "Briony Evans",
+      "d": "2026-07-17",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -9841,7 +9438,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-16",
       "hrs": 0,
       "di": 0,
@@ -9854,7 +9451,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-16",
       "hrs": 0,
       "di": 0,
@@ -9984,19 +9581,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-15",
       "hrs": 1.75,
@@ -10101,19 +9685,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-14",
       "hrs": 0,
@@ -10127,7 +9698,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-13",
       "hrs": 0,
       "di": 0,
@@ -10154,19 +9725,6 @@
     },
     {
       "n": "Nik Toth",
-      "d": "2026-07-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Marie Grondin",
       "d": "2026-07-13",
       "hrs": 0,
       "di": 0,
@@ -10192,7 +9750,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-13",
       "hrs": 0,
       "di": 0,
@@ -10205,7 +9763,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-13",
       "hrs": 0,
       "di": 0,
@@ -10233,19 +9791,6 @@
     {
       "n": "Briony Evans",
       "d": "2026-07-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Briony Evans",
-      "d": "2026-07-12",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -10335,7 +9880,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Daniel Henderson",
       "d": "2026-07-12",
       "hrs": 0,
       "di": 0,
@@ -10348,7 +9893,7 @@
       "rev": 0
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Briony Evans",
       "d": "2026-07-12",
       "hrs": 0,
       "di": 0,
@@ -10452,19 +9997,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-11",
       "hrs": 0,
@@ -10478,7 +10010,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-10",
       "hrs": 0,
       "di": 0,
@@ -10530,19 +10062,6 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-07-10",
       "hrs": 0,
@@ -10556,7 +10075,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-10",
       "hrs": 0,
       "di": 0,
@@ -10569,7 +10088,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-10",
       "hrs": 0,
       "di": 0,
@@ -10686,37 +10205,11 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-09",
       "hrs": 2,
       "di": 50,
       "se": 3,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Laura Fillmann",
-      "d": "2026-07-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
       "ap": 0,
       "ns": 0,
       "su": 0,
@@ -10777,7 +10270,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-08",
       "hrs": 0,
       "di": 0,
@@ -10790,7 +10283,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-08",
       "hrs": 0,
       "di": 0,
@@ -10920,19 +10413,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-07",
       "hrs": 0,
@@ -11037,19 +10517,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-06",
-      "hrs": 1.5,
-      "di": 50,
-      "se": 2,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-06",
       "hrs": 0,
@@ -11063,7 +10530,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-05",
       "hrs": 0,
       "di": 0,
@@ -11089,19 +10556,6 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-07-05",
       "hrs": 0,
@@ -11115,7 +10569,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-05",
       "hrs": 0,
       "di": 0,
@@ -11128,7 +10582,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-05",
       "hrs": 0,
       "di": 0,
@@ -11271,19 +10725,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-04",
       "hrs": 0,
@@ -11380,19 +10821,6 @@
       "hrs": 0,
       "di": 0,
       "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
-      "d": "2026-07-03",
-      "hrs": 3.5,
-      "di": 45,
-      "se": 3,
       "ap": 0,
       "ns": 0,
       "su": 0,
@@ -11505,36 +10933,10 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-07-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-02",
       "hrs": 2.25,
       "di": 100,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Laura Fillmann",
-      "d": "2026-07-01",
-      "hrs": 0,
-      "di": 0,
       "se": 0,
       "ap": 0,
       "ns": 0,
@@ -11596,7 +10998,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-07-01",
       "hrs": 0,
       "di": 0,
@@ -11609,7 +11011,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-07-01",
       "hrs": 0,
       "di": 0,
@@ -11739,19 +11141,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-30",
-      "hrs": 3.5,
-      "di": 0,
-      "se": 1,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-30",
       "hrs": 0,
@@ -11856,19 +11245,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-29",
-      "hrs": 3,
-      "di": 0,
-      "se": 3,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-29",
       "hrs": 0.58,
@@ -11882,7 +11258,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-06-28",
       "hrs": 0,
       "di": 0,
@@ -11921,19 +11297,6 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-06-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-06-28",
       "hrs": 0,
@@ -11947,7 +11310,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-06-28",
       "hrs": 0,
       "di": 0,
@@ -11960,7 +11323,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-06-28",
       "hrs": 0,
       "di": 0,
@@ -11988,19 +11351,6 @@
     {
       "n": "Briony Evans",
       "d": "2026-06-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Briony Evans",
-      "d": "2026-06-27",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -12090,7 +11440,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Daniel Henderson",
       "d": "2026-06-27",
       "hrs": 0,
       "di": 0,
@@ -12103,7 +11453,7 @@
       "rev": 0
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Briony Evans",
       "d": "2026-06-27",
       "hrs": 0,
       "di": 0,
@@ -12207,19 +11557,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-26",
       "hrs": 0,
@@ -12299,19 +11636,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-25",
       "hrs": 0,
       "di": 0,
@@ -12441,74 +11765,9 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-24",
       "hrs": 1,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Laura Fillmann",
-      "d": "2026-06-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Briony Evans",
-      "d": "2026-06-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Renee Beal",
-      "d": "2026-06-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-06-23",
-      "hrs": 0,
       "di": 0,
       "se": 0,
       "ap": 0,
@@ -12545,7 +11804,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Renee Beal",
       "d": "2026-06-23",
       "hrs": 0,
       "di": 0,
@@ -12558,7 +11817,33 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Nik Toth",
+      "d": "2026-06-23",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Laura Fillmann",
+      "d": "2026-06-23",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Kymberley Peters",
       "d": "2026-06-23",
       "hrs": 0,
       "di": 0,
@@ -12584,8 +11869,8 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-06-22",
+      "n": "Briony Evans",
+      "d": "2026-06-23",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -12649,7 +11934,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-06-22",
       "hrs": 0,
       "di": 0,
@@ -12662,7 +11947,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-06-22",
       "hrs": 0,
       "di": 0,
@@ -12792,19 +12077,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-21",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-21",
       "hrs": 0,
@@ -12818,7 +12090,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-06-20",
       "hrs": 0,
       "di": 0,
@@ -12870,20 +12142,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-06-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-06-20",
       "hrs": 0,
       "di": 0,
@@ -13013,19 +12272,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-19",
       "hrs": 0,
@@ -13104,19 +12350,6 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
-      "d": "2026-06-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 5497,
-      "rev": 5497
-    },
-    {
       "n": "Laura Fillmann",
       "d": "2026-06-18",
       "hrs": 0,
@@ -13130,7 +12363,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Russell Keddie",
       "d": "2026-06-18",
       "hrs": 0,
       "di": 0,
@@ -13139,11 +12372,11 @@
       "ns": 0,
       "su": 0,
       "cf": 0,
-      "cash": 0,
-      "rev": 0
+      "cash": 5497,
+      "rev": 5497
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-06-18",
       "hrs": 0,
       "di": 0,
@@ -13260,19 +12493,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-17",
       "hrs": 0,
@@ -13286,19 +12506,6 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-06-16",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-06-16",
       "hrs": 0,
@@ -13351,7 +12558,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-06-16",
       "hrs": 0,
       "di": 0,
@@ -13364,7 +12571,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-06-16",
       "hrs": 0,
       "di": 0,
@@ -13494,19 +12701,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-15",
       "hrs": 0,
@@ -13611,19 +12805,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-14",
       "hrs": 0,
@@ -13715,19 +12896,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-13",
       "hrs": 0,
@@ -13754,7 +12922,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Russell Keddie",
       "d": "2026-06-12",
       "hrs": 0,
       "di": 0,
@@ -13806,7 +12974,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Laura Fillmann",
       "d": "2026-06-12",
       "hrs": 0,
       "di": 0,
@@ -13820,19 +12988,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-12",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-12",
       "hrs": 0,
       "di": 0,
@@ -13962,19 +13117,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-06-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-06-11",
       "hrs": 0,
@@ -14067,19 +13209,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-10",
       "hrs": 0,
       "di": 0,
@@ -14184,19 +13313,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-09",
       "hrs": 0,
       "di": 0,
@@ -14301,19 +13417,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-08",
       "hrs": 0,
       "di": 0,
@@ -14418,19 +13521,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-07",
       "hrs": 0,
       "di": 0,
@@ -14535,19 +13625,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-06",
       "hrs": 0,
       "di": 0,
@@ -14652,19 +13729,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-05",
       "hrs": 0,
       "di": 0,
@@ -14769,19 +13833,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-04",
       "hrs": 0,
       "di": 0,
@@ -14886,19 +13937,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-03",
       "hrs": 0,
       "di": 0,
@@ -15003,19 +14041,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-02",
       "hrs": 0,
       "di": 0,
@@ -15120,19 +14145,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-06-01",
       "hrs": 0,
       "di": 0,
@@ -15237,19 +14249,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-31",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-31",
       "hrs": 0,
       "di": 0,
@@ -15354,19 +14353,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-30",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-30",
       "hrs": 0,
       "di": 0,
@@ -15471,19 +14457,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-29",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-29",
       "hrs": 0,
       "di": 0,
@@ -15588,19 +14561,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-28",
       "hrs": 0,
       "di": 0,
@@ -15705,19 +14665,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-27",
       "hrs": 0,
       "di": 0,
@@ -15822,19 +14769,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-26",
       "hrs": 0,
       "di": 0,
@@ -15939,19 +14873,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-25",
       "hrs": 0,
       "di": 0,
@@ -16056,19 +14977,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-24",
       "hrs": 0,
       "di": 0,
@@ -16173,19 +15081,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-23",
       "hrs": 0,
       "di": 0,
@@ -16290,19 +15185,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-22",
       "hrs": 0,
       "di": 0,
@@ -16407,19 +15289,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-21",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-21",
       "hrs": 0,
       "di": 0,
@@ -16536,19 +15405,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-20",
       "hrs": 0,
@@ -16653,19 +15509,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-19",
       "hrs": 0,
@@ -16758,19 +15601,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-18",
       "hrs": 0,
       "di": 0,
@@ -16887,19 +15717,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-17",
       "hrs": 0,
@@ -17004,19 +15821,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-16",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-16",
       "hrs": 0,
@@ -17109,19 +15913,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-15",
       "hrs": 0,
       "di": 0,
@@ -17238,19 +16029,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-14",
       "hrs": 0,
@@ -17343,19 +16121,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-13",
       "hrs": 0,
       "di": 0,
@@ -17472,19 +16237,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-12",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-12",
       "hrs": 0,
@@ -17589,19 +16341,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-11",
       "hrs": 0,
@@ -17706,19 +16445,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-10",
       "hrs": 0,
@@ -17745,7 +16471,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-05-09",
       "hrs": 0,
       "di": 0,
@@ -17797,19 +16523,6 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-05-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-05-09",
       "hrs": 0,
@@ -17823,7 +16536,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-05-09",
       "hrs": 0,
       "di": 0,
@@ -17862,7 +16575,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Russell Keddie",
       "d": "2026-05-08",
       "hrs": 0,
       "di": 0,
@@ -17927,20 +16640,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
-      "d": "2026-05-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-05-08",
       "hrs": 0,
       "di": 0,
@@ -18057,19 +16757,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-07",
       "hrs": 0,
@@ -18096,7 +16783,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-05-06",
       "hrs": 0,
       "di": 0,
@@ -18148,19 +16835,6 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-05-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-05-06",
       "hrs": 0,
@@ -18174,7 +16848,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-05-06",
       "hrs": 0,
       "di": 0,
@@ -18291,19 +16965,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-05",
       "hrs": 0,
@@ -18396,19 +17057,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-05-04",
       "hrs": 0,
       "di": 0,
@@ -18525,19 +17173,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-03",
       "hrs": 0,
@@ -18564,7 +17199,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-05-02",
       "hrs": 0,
       "di": 0,
@@ -18616,19 +17251,6 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
-      "d": "2026-05-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Russell Keddie",
       "d": "2026-05-02",
       "hrs": 0,
@@ -18642,7 +17264,7 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
+      "n": "Kymberley Peters",
       "d": "2026-05-02",
       "hrs": 0,
       "di": 0,
@@ -18759,19 +17381,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-05-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-01",
       "hrs": 0,
@@ -18876,19 +17485,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-30",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-30",
       "hrs": 0,
@@ -18993,19 +17589,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-29",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-29",
       "hrs": 0,
@@ -19110,19 +17693,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-28",
       "hrs": 0,
@@ -19215,19 +17785,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-04-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-04-27",
       "hrs": 0,
       "di": 0,
@@ -19344,19 +17901,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-26",
       "hrs": 0,
@@ -19461,19 +18005,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-25",
       "hrs": 0,
@@ -19501,19 +18032,6 @@
     },
     {
       "n": "Marie Grondin",
-      "d": "2026-04-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-04-24",
       "hrs": 0,
       "di": 0,
@@ -19683,19 +18201,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-04-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-04-23",
       "hrs": 0,
       "di": 0,
@@ -19812,19 +18317,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-22",
       "hrs": 0,
@@ -19917,19 +18409,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-04-21",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-04-21",
       "hrs": 0,
       "di": 0,
@@ -20046,19 +18525,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-20",
       "hrs": 0,
@@ -20163,19 +18629,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-19",
       "hrs": 0,
@@ -20268,19 +18721,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-04-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-04-18",
       "hrs": 0,
       "di": 0,
@@ -20397,19 +18837,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-17",
       "hrs": 0,
@@ -20514,19 +18941,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-16",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-16",
       "hrs": 0,
@@ -20631,19 +19045,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-15",
       "hrs": 0,
@@ -20748,19 +19149,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-14",
       "hrs": 0,
@@ -20865,19 +19253,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-13",
       "hrs": 0,
@@ -20982,19 +19357,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-12",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-12",
       "hrs": 0,
@@ -21099,19 +19461,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-11",
       "hrs": 0,
@@ -21216,19 +19565,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-10",
       "hrs": 0,
@@ -21333,19 +19669,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-09",
       "hrs": 0,
@@ -21450,19 +19773,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-08",
       "hrs": 0,
@@ -21567,19 +19877,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-07",
       "hrs": 0,
@@ -21684,19 +19981,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-06",
       "hrs": 0,
@@ -21801,19 +20085,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-05",
       "hrs": 0,
@@ -21918,19 +20189,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-04",
       "hrs": 0,
@@ -22035,19 +20293,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-03",
       "hrs": 0,
@@ -22140,19 +20385,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-04-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-04-02",
       "hrs": 0,
       "di": 0,
@@ -22269,19 +20501,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-04-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-01",
       "hrs": 0,
@@ -22374,19 +20593,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-31",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-31",
       "hrs": 0,
       "di": 0,
@@ -22503,19 +20709,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-30",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-30",
       "hrs": 0,
@@ -22620,19 +20813,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-29",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-29",
       "hrs": 0,
@@ -22725,19 +20905,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-28",
       "hrs": 0,
       "di": 0,
@@ -22854,19 +21021,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-27",
       "hrs": 0,
@@ -22971,19 +21125,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-26",
       "hrs": 0,
@@ -23076,19 +21217,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-25",
       "hrs": 0,
       "di": 0,
@@ -23205,19 +21333,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-24",
       "hrs": 0,
@@ -23310,19 +21425,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-23",
       "hrs": 0,
       "di": 0,
@@ -23439,19 +21541,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-22",
       "hrs": 0,
@@ -23556,19 +21645,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-21",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-21",
       "hrs": 0,
@@ -23661,19 +21737,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-20",
       "hrs": 0,
       "di": 0,
@@ -23790,19 +21853,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-19",
       "hrs": 0,
@@ -23895,19 +21945,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-18",
       "hrs": 0,
       "di": 0,
@@ -24012,19 +22049,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-17",
       "hrs": 0,
       "di": 0,
@@ -24141,19 +22165,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-16",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-16",
       "hrs": 0,
@@ -24246,19 +22257,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-15",
       "hrs": 0,
       "di": 0,
@@ -24375,19 +22373,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-14",
       "hrs": 0,
@@ -24492,19 +22477,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-13",
       "hrs": 0,
@@ -24597,19 +22569,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-12",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-12",
       "hrs": 0,
       "di": 0,
@@ -24726,19 +22685,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-11",
       "hrs": 0,
@@ -24831,19 +22777,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-10",
       "hrs": 0,
       "di": 0,
@@ -24960,19 +22893,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-09",
       "hrs": 0,
@@ -25077,19 +22997,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-08",
       "hrs": 0,
@@ -25182,19 +23089,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-07",
       "hrs": 0,
       "di": 0,
@@ -25311,19 +23205,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-06",
       "hrs": 0,
@@ -25416,19 +23297,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-05",
       "hrs": 0,
       "di": 0,
@@ -25545,19 +23413,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-04",
       "hrs": 0,
@@ -25650,19 +23505,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-03-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-03-03",
       "hrs": 0,
       "di": 0,
@@ -25779,19 +23621,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-02",
       "hrs": 0,
@@ -25896,19 +23725,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-03-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-01",
       "hrs": 0,
@@ -26001,19 +23817,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-28",
       "hrs": 0,
       "di": 0,
@@ -26130,19 +23933,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-27",
       "hrs": 0,
@@ -26247,19 +24037,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-26",
       "hrs": 0,
@@ -26352,19 +24129,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-25",
       "hrs": 0,
       "di": 0,
@@ -26481,19 +24245,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-24",
       "hrs": 0,
@@ -26586,19 +24337,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-23",
       "hrs": 0,
       "di": 0,
@@ -26715,19 +24453,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-22",
       "hrs": 0,
@@ -26820,19 +24545,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-21",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-21",
       "hrs": 0,
       "di": 0,
@@ -26949,19 +24661,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-20",
       "hrs": 0,
@@ -27066,19 +24765,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-19",
       "hrs": 0,
@@ -27171,19 +24857,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-18",
       "hrs": 0,
       "di": 0,
@@ -27288,19 +24961,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-17",
       "hrs": 0,
       "di": 0,
@@ -27417,19 +25077,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-16",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-16",
       "hrs": 0,
@@ -27522,19 +25169,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-15",
       "hrs": 0,
       "di": 0,
@@ -27651,19 +25285,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-14",
       "hrs": 0,
@@ -27756,19 +25377,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-13",
       "hrs": 0,
       "di": 0,
@@ -27880,19 +25488,6 @@
       "ap": 0,
       "ns": 0,
       "su": 1,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
-      "d": "2026-02-12",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
       "cf": 0,
       "cash": 0,
       "rev": 0
@@ -28002,19 +25597,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-11",
       "hrs": 0,
@@ -28114,19 +25696,6 @@
       "ap": 0,
       "ns": 0,
       "su": 2,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
-      "d": "2026-02-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
       "cf": 0,
       "cash": 0,
       "rev": 0
@@ -28236,19 +25805,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-09",
       "hrs": 0,
@@ -28349,19 +25905,6 @@
       "ns": 0,
       "su": 3,
       "cf": 3,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
-      "d": "2026-02-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
       "cash": 0,
       "rev": 0
     },
@@ -28470,19 +26013,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-07",
       "hrs": 0,
@@ -28587,19 +26117,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-06",
       "hrs": 0,
@@ -28692,19 +26209,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-05",
       "hrs": 0,
       "di": 0,
@@ -28821,19 +26325,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-04",
       "hrs": 0,
@@ -28926,19 +26417,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-02-03",
       "hrs": 0,
       "di": 0,
@@ -29055,19 +26533,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-02",
       "hrs": 0,
@@ -29172,19 +26637,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-02-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-01",
       "hrs": 0,
@@ -29277,19 +26729,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-31",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-31",
       "hrs": 0,
       "di": 0,
@@ -29406,19 +26845,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-30",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-30",
       "hrs": 0,
@@ -29511,19 +26937,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-29",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-29",
       "hrs": 0,
       "di": 0,
@@ -29640,19 +27053,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-28",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-28",
       "hrs": 0,
@@ -29757,19 +27157,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-27",
       "hrs": 0,
@@ -29874,19 +27261,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-26",
       "hrs": 0,
@@ -29979,19 +27353,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-25",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-25",
       "hrs": 0,
       "di": 0,
@@ -30108,19 +27469,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-24",
       "hrs": 0,
@@ -30213,19 +27561,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-23",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-23",
       "hrs": 0,
       "di": 0,
@@ -30342,19 +27677,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-22",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-22",
       "hrs": 0,
@@ -30447,19 +27769,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-21",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-21",
       "hrs": 0,
       "di": 0,
@@ -30576,19 +27885,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-20",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-20",
       "hrs": 0,
@@ -30693,19 +27989,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-19",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-19",
       "hrs": 0,
@@ -30810,19 +28093,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-18",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-18",
       "hrs": 0,
@@ -30927,19 +28197,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-17",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-17",
       "hrs": 0,
@@ -31032,19 +28289,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-16",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-16",
       "hrs": 0,
       "di": 0,
@@ -31161,19 +28405,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-15",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-15",
       "hrs": 0,
@@ -31266,19 +28497,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-14",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-14",
       "hrs": 0,
       "di": 0,
@@ -31395,19 +28613,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-13",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-13",
       "hrs": 0,
@@ -31512,19 +28717,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-12",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-12",
       "hrs": 0,
@@ -31629,19 +28821,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-11",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-11",
       "hrs": 0,
@@ -31746,19 +28925,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-10",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-10",
       "hrs": 0,
@@ -31863,19 +29029,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-09",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-09",
       "hrs": 0,
@@ -31980,19 +29133,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-08",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-08",
       "hrs": 0,
@@ -32097,19 +29237,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-07",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-07",
       "hrs": 0,
@@ -32214,19 +29341,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-06",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-06",
       "hrs": 0,
@@ -32331,19 +29445,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-05",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-05",
       "hrs": 0,
@@ -32448,19 +29549,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-04",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-04",
       "hrs": 0,
@@ -32553,19 +29641,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-03",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-03",
       "hrs": 0,
       "di": 0,
@@ -32682,19 +29757,6 @@
       "rev": 0
     },
     {
-      "n": "Gabriella",
-      "d": "2026-01-02",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-01-02",
       "hrs": 0,
@@ -32787,19 +29849,6 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-01-01",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Gabriella",
       "d": "2026-01-01",
       "hrs": 0,
       "di": 0,

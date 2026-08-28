@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-28T12:00:00.000Z",
+    "source": "BigQuery heart_smart_au.marketing_ad_spend_daily (Meta Ads verified)",
+    "dataWindow": "Aug 2026",
+    "syncedAt": "2026-08-28",
+    "dataPoints": 0,
+    "note": "Heart Smart Australia Meta Ads Dashboard - awaiting first data sync"
+  },
+  "daily": []
+}

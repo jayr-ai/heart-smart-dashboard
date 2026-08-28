@@ -2,10 +2,44 @@
   "meta": {
     "generatedAt": "2026-08-28T12:00:00.000Z",
     "source": "BigQuery heart_smart_au.marketing_ad_spend_daily (Meta Ads verified)",
-    "dataWindow": "Aug 2026",
+    "dataWindow": "Jul 29 - Aug 27, 2026",
     "syncedAt": "2026-08-28",
-    "dataPoints": 0,
-    "note": "Heart Smart Australia Meta Ads Dashboard - awaiting first data sync"
+    "dataPoints": 27,
+    "note": "Heart Smart Australia — Meta Ads daily data, last 30 days"
   },
-  "daily": []
+  "daily": [
+    { "date": "2026-07-29", "spend": 1850.73, "impressions": 60468, "linkClicks": 2006, "leads": 238 },
+    { "date": "2026-07-30", "spend": 1609.91, "impressions": 50410, "linkClicks": 1633, "leads": 231 },
+    { "date": "2026-07-31", "spend": 2032.22, "impressions": 56119, "linkClicks": 1990, "leads": 208 },
+    { "date": "2026-08-01", "spend": 207.39, "impressions": 5283, "linkClicks": 173, "leads": 18 },
+    { "date": "2026-08-05", "spend": 3094.62, "impressions": 97591, "linkClicks": 2495, "leads": 253 },
+    { "date": "2026-08-06", "spend": 3456.48, "impressions": 104242, "linkClicks": 3061, "leads": 333 },
+    { "date": "2026-08-07", "spend": 3142.97, "impressions": 98868, "linkClicks": 2898, "leads": 326 },
+    { "date": "2026-08-08", "spend": 3341.13, "impressions": 90953, "linkClicks": 2928, "leads": 371 },
+    { "date": "2026-08-09", "spend": 2391.89, "impressions": 75868, "linkClicks": 2372, "leads": 282 },
+    { "date": "2026-08-10", "spend": 1523.33, "impressions": 47995, "linkClicks": 1487, "leads": 199 },
+    { "date": "2026-08-11", "spend": 0.00, "impressions": 0, "linkClicks": 0, "leads": 1 },
+    { "date": "2026-08-12", "spend": 270.00, "impressions": 13971, "linkClicks": 297, "leads": 40 },
+    { "date": "2026-08-13", "spend": 301.51, "impressions": 16543, "linkClicks": 380, "leads": 53 },
+    { "date": "2026-08-14", "spend": 365.29, "impressions": 17957, "linkClicks": 379, "leads": 52 },
+    { "date": "2026-08-15", "spend": 316.52, "impressions": 14036, "linkClicks": 325, "leads": 48 },
+    { "date": "2026-08-16", "spend": 317.84, "impressions": 18179, "linkClicks": 411, "leads": 52 },
+    { "date": "2026-08-17", "spend": 764.48, "impressions": 33414, "linkClicks": 1126, "leads": 75 },
+    { "date": "2026-08-18", "spend": 835.66, "impressions": 36649, "linkClicks": 2192, "leads": 136 },
+    { "date": "2026-08-19", "spend": 583.50, "impressions": 24613, "linkClicks": 1102, "leads": 82 },
+    { "date": "2026-08-20", "spend": 711.98, "impressions": 22911, "linkClicks": 1235, "leads": 88 },
+    { "date": "2026-08-21", "spend": 137.16, "impressions": 3784, "linkClicks": 190, "leads": 17 },
+    { "date": "2026-08-22", "spend": 0.00, "impressions": 0, "linkClicks": 0, "leads": 1 },
+    { "date": "2026-08-23", "spend": 0.00, "impressions": 0, "linkClicks": 0, "leads": 1 },
+    { "date": "2026-08-24", "spend": 1013.42, "impressions": 31622, "linkClicks": 1238, "leads": 124 },
+    { "date": "2026-08-25", "spend": 1246.17, "impressions": 41070, "linkClicks": 1686, "leads": 158 },
+    { "date": "2026-08-26", "spend": 617.53, "impressions": 28873, "linkClicks": 900, "leads": 102 },
+    { "date": "2026-08-27", "spend": 122.88, "impressions": 6950, "linkClicks": 178, "leads": 18 }
+  ],
+  "totals": {
+    "spend": 35497.28,
+    "impressions": 1274387,
+    "linkClicks": 37741,
+    "leads": 4421
+  }
 }

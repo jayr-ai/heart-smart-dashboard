@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-27T13:11:18.762Z",
+  "synced_at": "2026-08-28T07:22:24.581Z",
   "agents": [
     {
       "n": "Benjamin Hext",
@@ -6601,15 +6601,15 @@
   "kpi": [
     {
       "n": "Daniel Henderson",
-      "d": "2026-08-27",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
+      "d": "2026-08-28",
+      "hrs": 30,
+      "di": 20,
+      "se": 1,
       "ap": 0,
-      "ns": 0,
-      "su": 2,
+      "ns": 4,
+      "su": 1,
       "cf": 0,
-      "cash": 5494,
+      "cash": 0,
       "rev": 0
     },
     {
@@ -6623,6 +6623,19 @@
       "su": 1,
       "cf": 0,
       "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-08-27",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 2,
+      "cf": 0,
+      "cash": 5494,
       "rev": 0
     },
     {
@@ -6756,7 +6769,7 @@
       "rev": 1
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-18",
       "hrs": 0,
       "di": 0,
@@ -6821,7 +6834,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Kymberley Peters",
       "d": "2026-08-18",
       "hrs": 0,
       "di": 0,
@@ -7172,7 +7185,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-14",
       "hrs": 0,
       "di": 0,
@@ -7224,7 +7237,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Russell Keddie",
       "d": "2026-08-14",
       "hrs": 0,
       "di": 0,
@@ -7237,7 +7250,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Kymberley Peters",
       "d": "2026-08-14",
       "hrs": 0,
       "di": 0,
@@ -8004,7 +8017,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-06",
       "hrs": 0,
       "di": 0,
@@ -8043,7 +8056,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Russell Keddie",
       "d": "2026-08-06",
       "hrs": 0,
       "di": 0,
@@ -8056,7 +8069,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Kymberley Peters",
       "d": "2026-08-06",
       "hrs": 0,
       "di": 0,
@@ -9564,7 +9577,7 @@
       "rev": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Renee Beal",
       "d": "2026-07-22",
       "hrs": 0,
       "di": 0,
@@ -9642,7 +9655,7 @@
       "rev": 0
     },
     {
-      "n": "Renee Beal",
+      "n": "Nik Toth",
       "d": "2026-07-22",
       "hrs": 0,
       "di": 0,

@@ -1,6 +1,6 @@
 # Sync Heart Smart Marketing Data
 
-**Status**: ✅ READY (Meta Ads only; GHL integration pending)
+**Status**: ✅ FULLY CONFIGURED (Meta Ads + GHL Pipeline + Contact Attribution)
 
 Auto-sync Meta Ads data for Heart Smart Australia into BigQuery and export to the masterclass dashboard.
 
@@ -27,7 +27,8 @@ This will:
 | **Color Scheme** | Red #FF5757 (vs green #20d020) |
 | **Domain** | `datahub.heartsmartaustralia.com.au/masterclass-dashboard` |
 | **Repo** | `jayr-ai/heart-smart-dashboard` |
-| **GHL Pipeline** | TBD (awaiting configuration) |
+| **GHL Pipeline** | ✅ Webinar Pipeline (fVjHZmcsCSemRfeoRBct) |
+| **GHL Secrets** | ✅ Configured in GitHub Actions |
 
 ## Deployment
 
@@ -38,10 +39,10 @@ Currently deployed to GitHub Pages:
 
 ## Next Steps
 
-1. **First Sync**: Run `/sync-heart-smart-marketing-data` to pull initial Meta data
-2. **GHL Configuration**: Once Heart Smart's masterclass pipeline ID is available, wire up funnel stages export
-3. **Validation**: Run `/validate-ghl-attribution` (or Heart Smart variant) for contact attribution once GHL is configured
-4. **Scheduled Runs**: Set up daily 6 AM AEST trigger via Apps Script
+1. ✅ **GHL Configured**: API key + Location ID + Pipeline ID stored as GitHub Secrets
+2. **Run Sync**: `/sync-heart-smart-marketing-data` pulls Meta Ads + GHL Pipeline + Contact Attribution
+3. **Verify Data**: Check BigQuery tables + dashboard displays live funnel/attribution
+4. **Scheduled Runs**: Set up daily 6 AM AEST trigger via Apps Script or GitHub Actions
 
 ## Support
 

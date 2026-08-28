@@ -34,9 +34,11 @@ Or with options:
    - Commits and pushes to GitHub
    - Dashboard auto-refreshes on next load
 
-3. **GHL Pipeline Sync** (Placeholder - awaiting pipeline ID)
-   - Once Heart Smart's masterclass pipeline ID is provided
-   - Will update `marketing_funnel_stages` table
+3. **GHL Pipeline Sync** ✅ **ACTIVE**
+   - Queries GHL API (Heart Smart account) for pipeline stages
+   - Updates `heart_smart_au.marketing_funnel_stages` table (real funnel counts)
+   - Queries GHL contacts for attribution classification
+   - Updates `heart_smart_au.ghl_contacts_cache` table (PAID/ORGANIC)
 
 ## Output
 

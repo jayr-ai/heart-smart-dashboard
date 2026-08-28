@@ -67,14 +67,66 @@ Report after each insert:
 - Spend amount
 - Records inserted/skipped
 
-### Phase 3: GHL Pipeline Sync (Placeholder)
+### Phase 3: GHL Pipeline Sync
 
-**Status**: On hold until Heart Smart's masterclass pipeline ID is provided.
+**Status**: ✅ **ACTIVE** — Uses Heart Smart GHL API key
 
-Once configured, will:
-1. Query GHL MCP for pipeline stages
-2. Insert daily snapshot to `heart_smart_au.marketing_funnel_stages`
-3. Export stage counts to JSON
+#### Step 1: Get GHL Secrets from GitHub
+```
+GHL_API_KEY_HEART_SMART = from github.com secrets
+GHL_LOCATION_ID = 9D1lM8MPCly9IoR5YCIa
+GHL_PIPELINE_ID = fVjHZmcsCSemRfeoRBct
+```
+
+#### Step 2: Query GHL Pipeline Stages
+Call GHL API endpoint: `GET /opportunities/pipeline/{pipelineId}/stages`
+
+Headers:
+```
+Authorization: Bearer {GHL_API_KEY_HEART_SMART}
+Content-Type: application/json
+```
+
+For each stage in pipeline, query:
+```
+GET /opportunities?stageId={stageId}&limit=100
+```
+
+Response includes:
+- `stageName` (e.g., "Optin", "Registered GA", "VIP Upgrade")
+- `count` (number of opportunities in stage)
+
+#### Step 3: Insert to BigQuery
+```sql
+INSERT INTO `jv-data-warehouse.heart_smart_au.marketing_funnel_stages`
+  (run_date, stage, count, synced_at)
+VALUES
+  ('2026-08-28', 'Optin', 2302, CURRENT_TIMESTAMP()),
+  ('2026-08-28', 'Registered GA', 481, CURRENT_TIMESTAMP()),
+  ...
+```
+
+Replace existing day's records (avoid duplicates)
+
+#### Step 4: Query GHL Contacts for Attribution
+Call: `GET /contacts/search?page=1&limit=100`
+
+For each contact, extract:
+- `email`
+- `attributionSource.utmMedium` (e.g., "paid", "organic")
+- `attributionSource.fbclid` (Facebook Click ID)
+
+Insert to `ghl_contacts_cache`:
+```sql
+INSERT INTO `jv-data-warehouse.heart_smart_au.ghl_contacts_cache`
+  (email, contact_id, attribution_source, final_attribution, is_validated, synced_at)
+VALUES
+  ('user@example.com', 'contact_123', 'paid', 'PAID', true, CURRENT_TIMESTAMP()),
+  ...
+```
+
+#### Step 5: Export Combined Data
+Merge funnel stages + contact attribution into JSON
 
 ### Phase 4: Export to JSON
 

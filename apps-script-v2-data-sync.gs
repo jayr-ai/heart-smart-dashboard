@@ -611,3 +611,241 @@ function testV2Sync() {
   Logger.log('🧪 Running v2 data sync test...');
   syncV2DataNow();
 }
+
+// ============================================================================
+// HEART SMART REVENUE EXPORT (NEW FUNCTION)
+// ============================================================================
+
+/**
+ * Export Heart Smart revenue/cash attribution data to GitHub
+ * Pulls enriched transaction data from BigQuery and formats it for the Masterclass Dashboard
+ *
+ * Usage: Open Apps Script editor > Run > exportCashAttributionData
+ */
+function exportCashAttributionData() {
+  try {
+    Logger.log('🔄 Starting Heart Smart cash attribution export...');
+    const startTime = new Date();
+
+    // Step 1: Fetch transaction data from BigQuery
+    Logger.log('📊 Step 1: Fetching revenue transactions from BigQuery...');
+    const transactions = fetchRevenueTransactions();
+    Logger.log(`   ✓ Fetched ${transactions.length} transactions`);
+
+    // Step 2: Calculate monthly summary
+    Logger.log('📊 Step 2: Calculating monthly summary...');
+    const monthlySummary = calculateMonthlySummary(transactions);
+    Logger.log(`   ✓ Calculated ${monthlySummary.length} months`);
+
+    // Step 3: Calculate daily breakdown
+    Logger.log('📊 Step 3: Calculating daily breakdown...');
+    const dailyBreakdown = calculateDailyBreakdown(transactions);
+    Logger.log(`   ✓ Calculated ${dailyBreakdown.length} days`);
+
+    // Step 4: Transform transactions for export
+    Logger.log('🔧 Step 4: Transforming transactions...');
+    const transformedTransactions = transactions.map(t => ({
+      date: t.date,
+      name: t.name || '',
+      email: t.email || '',
+      product: t.product || '',
+      amount: parseFloat(t.amount) || 0,
+      source: t.attribution_source === 'PAID' ? 'Paid' : 'Organic'
+    }));
+
+    // Step 5: Build final JSON structure
+    Logger.log('📝 Step 5: Building JSON export...');
+    const totalCash = transactions.reduce((sum, t) => sum + (parseFloat(t.amount) || 0), 0);
+    const jsonData = {
+      meta: {
+        generatedAt: new Date().toISOString(),
+        source: 'BigQuery revenue_transactions_enriched table with Heart Smart products',
+        dataWindow: 'Nov 2025 - Sep 2026',
+        totalRecords: transactions.length,
+        totalRevenue: Math.round(totalCash * 100) / 100,
+        currency: 'AUD'
+      },
+      monthlySummary: monthlySummary,
+      dailyBreakdown: dailyBreakdown,
+      transactions: transformedTransactions
+    };
+
+    // Step 6: Export to GitHub
+    Logger.log('🚀 Step 6: Exporting to GitHub...');
+    const exported = exportCashAttributionToGitHub(jsonData);
+
+    if (exported) {
+      const duration = Math.round((new Date() - startTime) / 1000);
+      Logger.log(`✅ Cash attribution export completed (${duration}s)`);
+      Logger.log(`   - ${transactions.length} transactions`);
+      Logger.log(`   - $${Math.round(totalCash * 100) / 100} AUD total`);
+      Logger.log(`   - ${monthlySummary.length} months`);
+      Logger.log(`   - ${dailyBreakdown.length} days`);
+    } else {
+      Logger.log('❌ Export to GitHub failed');
+    }
+
+  } catch (error) {
+    Logger.log('❌ Error in cash attribution export: ' + error.toString());
+    Logger.log('   Stack: ' + error.stack);
+    throw error;
+  }
+}
+
+/**
+ * Fetch all revenue transactions from BigQuery
+ * Includes enriched data with attribution source
+ */
+function fetchRevenueTransactions() {
+  const sql = `
+    SELECT
+      date,
+      name,
+      email,
+      product,
+      CAST(amount AS FLOAT64) as amount,
+      attribution_source
+    FROM \`${BQ_PROJECT_ID_V2}.${BQ_DATASET_V2}.revenue_transactions_enriched\`
+    ORDER BY date DESC
+  `;
+
+  return executeAndReturnRows(sql);
+}
+
+/**
+ * Calculate monthly summary from transactions
+ */
+function calculateMonthlySummary(transactions) {
+  const months = {};
+
+  transactions.forEach(t => {
+    const monthKey = t.date.substring(0, 7); // YYYY-MM
+    if (!months[monthKey]) {
+      months[monthKey] = {
+        month: monthKey,
+        transactionCount: 0,
+        totalCash: 0,
+        cashFromAds: 0,
+        cashFromOrganic: 0
+      };
+    }
+
+    const amount = parseFloat(t.amount) || 0;
+    months[monthKey].transactionCount++;
+    months[monthKey].totalCash += amount;
+
+    if (t.attribution_source === 'PAID') {
+      months[monthKey].cashFromAds += amount;
+    } else {
+      months[monthKey].cashFromOrganic += amount;
+    }
+  });
+
+  // Sort by month descending and return as array
+  return Object.values(months)
+    .sort((a, b) => b.month.localeCompare(a.month))
+    .reverse() // Keep ascending order
+    .map(m => ({
+      month: m.month,
+      transactionCount: m.transactionCount,
+      totalCash: Math.round(m.totalCash * 100) / 100,
+      cashFromAds: Math.round(m.cashFromAds * 100) / 100,
+      cashFromOrganic: Math.round(m.cashFromOrganic * 100) / 100
+    }));
+}
+
+/**
+ * Calculate daily breakdown from transactions
+ */
+function calculateDailyBreakdown(transactions) {
+  const days = {};
+
+  transactions.forEach(t => {
+    const dateKey = t.date;
+    if (!days[dateKey]) {
+      days[dateKey] = {
+        date: dateKey,
+        cashFromAds: 0,
+        cashFromOrganic: 0
+      };
+    }
+
+    const amount = parseFloat(t.amount) || 0;
+    if (t.attribution_source === 'PAID') {
+      days[dateKey].cashFromAds += amount;
+    } else {
+      days[dateKey].cashFromOrganic += amount;
+    }
+  });
+
+  // Sort by date ascending and return as array
+  return Object.values(days)
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map(d => ({
+      date: d.date,
+      cashFromAds: Math.round(d.cashFromAds * 100) / 100,
+      cashFromOrganic: Math.round(d.cashFromOrganic * 100) / 100
+    }));
+}
+
+/**
+ * Export cash attribution JSON to GitHub
+ * Saves to masterclass-dashboard/data/cash-attribution.json
+ */
+function exportCashAttributionToGitHub(jsonData) {
+  const token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+
+  if (!token) {
+    Logger.log('⚠️  GITHUB_TOKEN not set. Use setGitHubToken("your_token") first.');
+    return false;
+  }
+
+  try {
+    const filePath = 'masterclass-dashboard/data/cash-attribution.json';
+    const currentSha = getFileShaBigQuery(
+      GITHUB_OWNER_V2,
+      GITHUB_REPO_V2,
+      filePath,
+      token
+    );
+
+    const commitMessage = `Update Heart Smart revenue attribution data (${jsonData.meta.totalRecords} transactions, $${jsonData.meta.totalRevenue} AUD) - ${new Date().toISOString().split('T')[0]}`;
+    const encodedContent = Utilities.base64Encode(JSON.stringify(jsonData, null, 2));
+
+    const payload = {
+      message: commitMessage,
+      content: encodedContent,
+      branch: GITHUB_BRANCH_V2
+    };
+
+    if (currentSha) {
+      payload.sha = currentSha;
+    }
+
+    const url = `https://api.github.com/repos/${GITHUB_OWNER_V2}/${GITHUB_REPO_V2}/contents/${filePath}`;
+    const options = {
+      method: 'put',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    };
+
+    const response = UrlFetchApp.fetch(url, options);
+    const code = response.getResponseCode();
+
+    if (code === 200 || code === 201) {
+      Logger.log('✅ GitHub export successful');
+      return true;
+    } else {
+      Logger.log(`❌ GitHub export failed (${code}): ${response.getContentText()}`);
+      return false;
+    }
+  } catch (error) {
+    Logger.log('❌ GitHub error: ' + error.toString());
+    return false;
+  }
+}

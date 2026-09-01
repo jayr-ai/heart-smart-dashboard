@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-01T00:43:50.937Z",
+  "synced_at": "2026-09-01T13:20:42.189Z",
   "agents": [
     {
       "n": "Benjamin Hext",
@@ -51,6 +51,34 @@
     }
   ],
   "funnel": [
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-09-01",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 3,
+      "mis": 1,
+      "can": 2,
+      "pp": 1,
+      "ts": 1,
+      "rev": 5997,
+      "cash": 1999
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-09-01",
+      "won": 2,
+      "pen": 0,
+      "lost": 2,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
     {
       "n": "Briony Evans",
       "d": "2026-08-31",
@@ -164,6 +192,20 @@
       "cash": 0
     },
     {
+      "n": "Marie Grondin",
+      "d": "2026-08-27",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 1,
+      "mis": 0,
+      "can": 3,
+      "pp": 2,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Daniel Henderson",
       "d": "2026-08-27",
       "won": 1,
@@ -178,18 +220,18 @@
       "cash": 4997
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-08-27",
-      "won": 0,
+      "n": "Kymberley Peters",
+      "d": "2026-08-26",
+      "won": 2,
       "pen": 0,
-      "lost": 2,
-      "ns": 1,
+      "lost": 0,
+      "ns": 2,
       "mis": 0,
-      "can": 3,
+      "can": 4,
       "pp": 2,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "ts": 2,
+      "rev": 10994,
+      "cash": 6996
     },
     {
       "n": "Briony Evans",
@@ -218,20 +260,6 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
-    },
-    {
-      "n": "Kymberley Peters",
-      "d": "2026-08-26",
-      "won": 2,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 4,
-      "pp": 2,
-      "ts": 2,
-      "rev": 10994,
-      "cash": 6996
     },
     {
       "n": "Marie Grondin",
@@ -290,20 +318,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-08-24",
-      "won": 0,
-      "pen": 0,
-      "lost": 3,
-      "ns": 5,
-      "mis": 0,
-      "can": 4,
-      "pp": 3,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Briony Evans",
       "d": "2026-08-24",
       "won": 1,
@@ -332,6 +346,20 @@
       "cash": 3497
     },
     {
+      "n": "Daniel Henderson",
+      "d": "2026-08-24",
+      "won": 0,
+      "pen": 0,
+      "lost": 3,
+      "ns": 5,
+      "mis": 0,
+      "can": 4,
+      "pp": 3,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-08-22",
       "won": 1,
@@ -344,34 +372,6 @@
       "ts": 1,
       "rev": 4997,
       "cash": 4998.5
-    },
-    {
-      "n": "Kymberley Peters",
-      "d": "2026-08-21",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 6,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Briony Evans",
-      "d": "2026-08-21",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 1,
-      "mis": 0,
-      "can": 0,
-      "pp": 2,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
     },
     {
       "n": "Daniel Henderson",
@@ -388,6 +388,34 @@
       "cash": 999.5
     },
     {
+      "n": "Briony Evans",
+      "d": "2026-08-21",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 1,
+      "mis": 0,
+      "can": 0,
+      "pp": 2,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-08-21",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 2,
+      "mis": 0,
+      "can": 6,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-08-20",
       "won": 1,
@@ -400,6 +428,20 @@
       "ts": 1,
       "rev": 4997,
       "cash": 4997
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-08-20",
+      "won": 0,
+      "pen": 0,
+      "lost": 4,
+      "ns": 2,
+      "mis": 0,
+      "can": 2,
+      "pp": 2,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Daniel Henderson",
@@ -417,17 +459,17 @@
     },
     {
       "n": "Marie Grondin",
-      "d": "2026-08-20",
-      "won": 0,
+      "d": "2026-08-19",
+      "won": 1,
       "pen": 0,
-      "lost": 4,
-      "ns": 2,
+      "lost": 1,
+      "ns": 0,
       "mis": 0,
-      "can": 2,
-      "pp": 2,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "can": 4,
+      "pp": 1,
+      "ts": 1,
+      "rev": 3997,
+      "cash": 3997
     },
     {
       "n": "Kymberley Peters",
@@ -459,20 +501,6 @@
     },
     {
       "n": "Marie Grondin",
-      "d": "2026-08-19",
-      "won": 1,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 4,
-      "pp": 1,
-      "ts": 1,
-      "rev": 3997,
-      "cash": 3997
-    },
-    {
-      "n": "Marie Grondin",
       "d": "2026-08-18",
       "won": 0,
       "pen": 0,
@@ -500,18 +528,18 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Briony Evans",
       "d": "2026-08-17",
-      "won": 1,
+      "won": 0,
       "pen": 0,
-      "lost": 2,
-      "ns": 2,
+      "lost": 1,
+      "ns": 0,
       "mis": 0,
       "can": 0,
-      "pp": 3,
-      "ts": 1,
-      "rev": 4997,
-      "cash": 4997
+      "pp": 1,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Daniel Henderson",
@@ -542,18 +570,18 @@
       "cash": 4497
     },
     {
-      "n": "Briony Evans",
+      "n": "Nik Toth",
       "d": "2026-08-17",
-      "won": 0,
+      "won": 1,
       "pen": 0,
-      "lost": 1,
-      "ns": 0,
+      "lost": 2,
+      "ns": 2,
       "mis": 0,
       "can": 0,
-      "pp": 1,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "pp": 3,
+      "ts": 1,
+      "rev": 4997,
+      "cash": 4997
     },
     {
       "n": "Kymberley Peters",
@@ -568,6 +596,34 @@
       "ts": 1,
       "rev": 5997,
       "cash": 2998.5
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-08-14",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 1,
+      "mis": 0,
+      "can": 8,
+      "pp": 1,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-08-14",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 1,
+      "can": 3,
+      "pp": 2,
+      "ts": 2,
+      "rev": 4997,
+      "cash": 4997
     },
     {
       "n": "Kymberley Peters",
@@ -598,20 +654,6 @@
       "cash": 4997
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-08-14",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 1,
-      "mis": 0,
-      "can": 8,
-      "pp": 1,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-08-14",
       "won": 0,
@@ -624,34 +666,6 @@
       "ts": 1,
       "rev": 0,
       "cash": 497
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-08-14",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 1,
-      "can": 3,
-      "pp": 2,
-      "ts": 2,
-      "rev": 4997,
-      "cash": 4997
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-08-13",
-      "won": 1,
-      "pen": 0,
-      "lost": 3,
-      "ns": 1,
-      "mis": 0,
-      "can": 3,
-      "pp": 3,
-      "ts": 1,
-      "rev": 4997,
-      "cash": 4997
     },
     {
       "n": "Kymberley Peters",
@@ -694,6 +708,20 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-08-13",
+      "won": 1,
+      "pen": 0,
+      "lost": 3,
+      "ns": 1,
+      "mis": 0,
+      "can": 3,
+      "pp": 3,
+      "ts": 1,
+      "rev": 4997,
+      "cash": 4997
     },
     {
       "n": "Marie Grondin",
@@ -794,20 +822,6 @@
       "cash": 8997
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-08-07",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 1,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 8997,
-      "cash": 8997
-    },
-    {
       "n": "Briony Evans",
       "d": "2026-08-07",
       "won": 0,
@@ -830,6 +844,34 @@
       "ns": 3,
       "mis": 1,
       "can": 4,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-08-07",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 1,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 8997,
+      "cash": 8997
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-08-06",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 2,
+      "mis": 0,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -864,43 +906,15 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-08-06",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Daniel Henderson",
+      "n": "Briony Evans",
       "d": "2026-08-05",
       "won": 0,
       "pen": 0,
       "lost": 1,
-      "ns": 2,
+      "ns": 0,
       "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-08-05",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 1,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
+      "can": 0,
+      "pp": 1,
       "ts": 0,
       "rev": 0,
       "cash": 0
@@ -920,15 +934,29 @@
       "cash": 4997
     },
     {
-      "n": "Briony Evans",
+      "n": "Marie Grondin",
+      "d": "2026-08-05",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 1,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
       "d": "2026-08-05",
       "won": 0,
       "pen": 0,
       "lost": 1,
-      "ns": 0,
+      "ns": 2,
       "mis": 0,
-      "can": 0,
-      "pp": 1,
+      "can": 2,
+      "pp": 0,
       "ts": 0,
       "rev": 0,
       "cash": 0
@@ -1004,20 +1032,6 @@
       "cash": 7995.5
     },
     {
-      "n": "Briony Evans",
-      "d": "2026-07-31",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 1,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-07-31",
       "won": 1,
@@ -1030,6 +1044,20 @@
       "ts": 1,
       "rev": 4997,
       "cash": 4997
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-07-31",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 1,
+      "can": 2,
+      "pp": 2,
+      "ts": 2,
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Marie Grondin",
@@ -1046,16 +1074,16 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Briony Evans",
       "d": "2026-07-31",
       "won": 0,
       "pen": 0,
       "lost": 1,
       "ns": 0,
-      "mis": 1,
-      "can": 2,
-      "pp": 2,
-      "ts": 2,
+      "mis": 0,
+      "can": 0,
+      "pp": 1,
+      "ts": 0,
       "rev": 0,
       "cash": 0
     },
@@ -1074,20 +1102,6 @@
       "cash": 4997
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-30",
-      "won": 1,
-      "pen": 0,
-      "lost": 3,
-      "ns": 2,
-      "mis": 0,
-      "can": 2,
-      "pp": 3,
-      "ts": 0,
-      "rev": 4997,
-      "cash": 4997
-    },
-    {
       "n": "Nik Toth",
       "d": "2026-07-30",
       "won": 1,
@@ -1102,6 +1116,20 @@
       "cash": 5997
     },
     {
+      "n": "Marie Grondin",
+      "d": "2026-07-30",
+      "won": 1,
+      "pen": 0,
+      "lost": 3,
+      "ns": 2,
+      "mis": 0,
+      "can": 2,
+      "pp": 3,
+      "ts": 0,
+      "rev": 4997,
+      "cash": 4997
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-07-29",
       "won": 0,
@@ -1110,6 +1138,20 @@
       "ns": 2,
       "mis": 1,
       "can": 5,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Briony Evans",
+      "d": "2026-07-29",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 3,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -1144,20 +1186,6 @@
       "cash": 0
     },
     {
-      "n": "Briony Evans",
-      "d": "2026-07-29",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 3,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-07-28",
       "won": 0,
@@ -1172,20 +1200,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-07-28",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Briony Evans",
       "d": "2026-07-28",
       "won": 0,
@@ -1194,6 +1208,20 @@
       "ns": 1,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-07-28",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -1494,20 +1522,6 @@
       "cash": 5997
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-07-21",
-      "won": 1,
-      "pen": 0,
-      "lost": 2,
-      "ns": 4,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 4997,
-      "cash": 4997
-    },
-    {
       "n": "Briony Evans",
       "d": "2026-07-21",
       "won": 0,
@@ -1534,6 +1548,20 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-07-21",
+      "won": 1,
+      "pen": 0,
+      "lost": 2,
+      "ns": 4,
+      "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 4997,
+      "cash": 4997
     },
     {
       "n": "Carlos Chan",
@@ -1606,20 +1634,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-07-18",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 4,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-18",
       "won": 0,
@@ -1628,6 +1642,20 @@
       "ns": 0,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-07-18",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 2,
+      "mis": 0,
+      "can": 4,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -1774,20 +1802,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-07-16",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 2,
-      "mis": 0,
-      "can": 3,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-16",
       "won": 0,
@@ -1796,6 +1810,20 @@
       "ns": 0,
       "mis": 1,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-07-16",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 2,
+      "mis": 0,
+      "can": 3,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -1816,20 +1844,6 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-07-15",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 2,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Gabriella",
       "d": "2026-07-15",
       "won": 0,
@@ -1838,20 +1852,6 @@
       "ns": 1,
       "mis": 0,
       "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-07-15",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -1872,20 +1872,6 @@
       "cash": 0
     },
     {
-      "n": "Carlos Chan",
-      "d": "2026-07-15",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-07-15",
       "won": 1,
@@ -1900,6 +1886,48 @@
       "cash": 4997
     },
     {
+      "n": "Carlos Chan",
+      "d": "2026-07-15",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-07-15",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 2,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-07-15",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Gabriella",
       "d": "2026-07-14",
       "won": 0,
@@ -1907,6 +1935,34 @@
       "lost": 1,
       "ns": 1,
       "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-07-14",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 1,
+      "can": 5,
+      "pp": 0,
+      "ts": 0,
+      "rev": 4997,
+      "cash": 4997
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-07-14",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 0,
+      "mis": 2,
       "can": 2,
       "pp": 0,
       "ts": 0,
@@ -1928,32 +1984,18 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-07-14",
+      "n": "Daniel Henderson",
+      "d": "2026-07-13",
       "won": 0,
       "pen": 0,
-      "lost": 2,
-      "ns": 0,
-      "mis": 2,
+      "lost": 1,
+      "ns": 4,
+      "mis": 0,
       "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
       "cash": 0
-    },
-    {
-      "n": "Kymberley Peters",
-      "d": "2026-07-14",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 1,
-      "can": 5,
-      "pp": 0,
-      "ts": 0,
-      "rev": 4997,
-      "cash": 4997
     },
     {
       "n": "Gabriella",
@@ -1984,14 +2026,14 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-07-13",
+      "n": "Marie Grondin",
+      "d": "2026-07-11",
       "won": 0,
       "pen": 0,
-      "lost": 1,
-      "ns": 4,
+      "lost": 0,
+      "ns": 1,
       "mis": 0,
-      "can": 2,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2027,27 +2069,13 @@
     },
     {
       "n": "Marie Grondin",
-      "d": "2026-07-11",
+      "d": "2026-07-10",
       "won": 0,
       "pen": 0,
       "lost": 0,
       "ns": 1,
       "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-07-10",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
+      "can": 3,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2082,14 +2110,14 @@
       "cash": 0
     },
     {
-      "n": "Marie Grondin",
+      "n": "Daniel Henderson",
       "d": "2026-07-10",
       "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 1,
+      "lost": 2,
+      "ns": 0,
       "mis": 0,
-      "can": 3,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2108,34 +2136,6 @@
       "ts": 0,
       "rev": 9994,
       "cash": 9994
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-07-09",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 1,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-07-09",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
     },
     {
       "n": "Nik Toth",
@@ -2166,6 +2166,34 @@
       "cash": 0
     },
     {
+      "n": "Daniel Henderson",
+      "d": "2026-07-09",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 1,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-07-09",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Nik Toth",
       "d": "2026-07-08",
       "won": 0,
@@ -2188,20 +2216,6 @@
       "ns": 1,
       "mis": 0,
       "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-07-08",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2223,17 +2237,17 @@
     },
     {
       "n": "Daniel Henderson",
-      "d": "2026-07-07",
-      "won": 1,
+      "d": "2026-07-08",
+      "won": 0,
       "pen": 0,
       "lost": 0,
-      "ns": 0,
+      "ns": 2,
       "mis": 0,
-      "can": 0,
+      "can": 1,
       "pp": 0,
       "ts": 0,
-      "rev": 3997,
-      "cash": 1332.3333333333333
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Marie Grondin",
@@ -2248,20 +2262,6 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-07-07",
-      "won": 2,
-      "pen": 0,
-      "lost": 0,
-      "ns": 1,
-      "mis": 0,
-      "can": 3,
-      "pp": 0,
-      "ts": 0,
-      "rev": 16494,
-      "cash": 16494
     },
     {
       "n": "Kymberley Peters",
@@ -2290,6 +2290,34 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-07-07",
+      "won": 2,
+      "pen": 0,
+      "lost": 0,
+      "ns": 1,
+      "mis": 0,
+      "can": 3,
+      "pp": 0,
+      "ts": 0,
+      "rev": 16494,
+      "cash": 16494
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-07-07",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 3997,
+      "cash": 1332.3333333333333
     },
     {
       "n": "Nik Toth",
@@ -2348,20 +2376,6 @@
       "cash": 4080.833333333333
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-07-03",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Gabriella",
       "d": "2026-07-03",
       "won": 0,
@@ -2376,18 +2390,18 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Nik Toth",
       "d": "2026-07-03",
-      "won": 1,
+      "won": 0,
       "pen": 0,
       "lost": 1,
-      "ns": 2,
+      "ns": 0,
       "mis": 0,
-      "can": 6,
+      "can": 2,
       "pp": 0,
       "ts": 0,
-      "rev": 5497,
-      "cash": 2748.5
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Marie Grondin",
@@ -2404,18 +2418,18 @@
       "cash": 2748.5
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-07-02",
-      "won": 0,
+      "n": "Kymberley Peters",
+      "d": "2026-07-03",
+      "won": 1,
       "pen": 0,
-      "lost": 0,
-      "ns": 0,
+      "lost": 1,
+      "ns": 2,
       "mis": 0,
-      "can": 2,
+      "can": 6,
       "pp": 0,
       "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "rev": 5497,
+      "cash": 2748.5
     },
     {
       "n": "Daniel Henderson",
@@ -2426,6 +2440,34 @@
       "ns": 0,
       "mis": 0,
       "can": 3,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-07-02",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 4,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-07-02",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2446,20 +2488,6 @@
       "cash": 2748.5
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-07-02",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 4,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-07-01",
       "won": 0,
@@ -2472,34 +2500,6 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-07-01",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 2,
-      "mis": 0,
-      "can": 4,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-07-01",
-      "won": 1,
-      "pen": 0,
-      "lost": 1,
-      "ns": 1,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 3497,
-      "cash": 3497
     },
     {
       "n": "Kymberley Peters",
@@ -2517,11 +2517,25 @@
     },
     {
       "n": "Nik Toth",
-      "d": "2026-06-30",
-      "won": 0,
+      "d": "2026-07-01",
+      "won": 1,
       "pen": 0,
       "lost": 1,
       "ns": 1,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 3497,
+      "cash": 3497
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-07-01",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 2,
       "mis": 0,
       "can": 4,
       "pp": 0,
@@ -2530,12 +2544,26 @@
       "cash": 0
     },
     {
-      "n": "Marie Grondin",
+      "n": "Gabriella",
       "d": "2026-06-30",
       "won": 0,
       "pen": 0,
       "lost": 1,
       "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-06-30",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 1,
       "mis": 0,
       "can": 4,
       "pp": 0,
@@ -2558,14 +2586,14 @@
       "cash": 4580.833333333333
     },
     {
-      "n": "Gabriella",
+      "n": "Marie Grondin",
       "d": "2026-06-30",
       "won": 0,
       "pen": 0,
       "lost": 1,
       "ns": 0,
       "mis": 0,
-      "can": 0,
+      "can": 4,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2586,20 +2614,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-06-29",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 1,
-      "mis": 0,
-      "can": 6,
-      "pp": 0,
-      "ts": 0,
-      "rev": 5497,
-      "cash": 2748.5
-    },
-    {
       "n": "Gabriella",
       "d": "2026-06-29",
       "won": 0,
@@ -2612,6 +2626,20 @@
       "ts": 0,
       "rev": 0,
       "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-06-29",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 1,
+      "mis": 0,
+      "can": 6,
+      "pp": 0,
+      "ts": 0,
+      "rev": 5497,
+      "cash": 2748.5
     },
     {
       "n": "Marie Grondin",
@@ -2642,18 +2670,18 @@
       "cash": 8994
     },
     {
-      "n": "Nik Toth",
+      "n": "Kymberley Peters",
       "d": "2026-06-26",
       "won": 1,
       "pen": 0,
-      "lost": 1,
-      "ns": 2,
+      "lost": 2,
+      "ns": 1,
       "mis": 0,
-      "can": 3,
+      "can": 2,
       "pp": 0,
       "ts": 0,
-      "rev": 9997,
-      "cash": 3332.3333333333335
+      "rev": 5497,
+      "cash": 5497
     },
     {
       "n": "Gabriella",
@@ -2670,18 +2698,18 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Nik Toth",
       "d": "2026-06-26",
       "won": 1,
       "pen": 0,
-      "lost": 2,
-      "ns": 1,
+      "lost": 1,
+      "ns": 2,
       "mis": 0,
-      "can": 2,
+      "can": 3,
       "pp": 0,
       "ts": 0,
-      "rev": 5497,
-      "cash": 5497
+      "rev": 9997,
+      "cash": 3332.3333333333335
     },
     {
       "n": "Daniel Henderson",
@@ -2824,6 +2852,20 @@
       "cash": 5497
     },
     {
+      "n": "Nik Toth",
+      "d": "2026-06-23",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 2,
+      "can": 4,
+      "pp": 0,
+      "ts": 0,
+      "rev": 5497,
+      "cash": 5497
+    },
+    {
       "n": "Marie Grondin",
       "d": "2026-06-23",
       "won": 0,
@@ -2838,18 +2880,18 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-06-23",
-      "won": 1,
+      "n": "Daniel Henderson",
+      "d": "2026-06-22",
+      "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 2,
-      "can": 4,
+      "lost": 1,
+      "ns": 1,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
-      "rev": 5497,
-      "cash": 5497
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Nik Toth",
@@ -2880,14 +2922,14 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-06-22",
+      "n": "Kymberley Peters",
+      "d": "2026-06-20",
       "won": 0,
       "pen": 0,
-      "lost": 1,
+      "lost": 0,
       "ns": 1,
       "mis": 0,
-      "can": 0,
+      "can": 3,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -2908,18 +2950,18 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-06-20",
-      "won": 0,
+      "n": "Nik Toth",
+      "d": "2026-06-19",
+      "won": 1,
       "pen": 0,
       "lost": 0,
-      "ns": 1,
+      "ns": 2,
       "mis": 0,
       "can": 3,
       "pp": 0,
       "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "rev": 5997,
+      "cash": 1999
     },
     {
       "n": "Daniel Henderson",
@@ -2936,12 +2978,12 @@
       "cash": 10994
     },
     {
-      "n": "Marie Grondin",
+      "n": "Gabriella",
       "d": "2026-06-19",
       "won": 0,
-      "pen": 1,
+      "pen": 0,
       "lost": 2,
-      "ns": 2,
+      "ns": 0,
       "mis": 0,
       "can": 1,
       "pp": 0,
@@ -2950,26 +2992,12 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-06-19",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 3,
-      "pp": 0,
-      "ts": 0,
-      "rev": 5997,
-      "cash": 1999
-    },
-    {
-      "n": "Gabriella",
+      "n": "Marie Grondin",
       "d": "2026-06-19",
       "won": 0,
-      "pen": 0,
+      "pen": 1,
       "lost": 2,
-      "ns": 0,
+      "ns": 2,
       "mis": 0,
       "can": 1,
       "pp": 0,
@@ -3006,20 +3034,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-06-18",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 4,
-      "pp": 0,
-      "ts": 0,
-      "rev": 5497,
-      "cash": 5497
-    },
-    {
       "n": "Nik Toth",
       "d": "2026-06-18",
       "won": 1,
@@ -3035,31 +3049,17 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-06-17",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-06-17",
-      "won": 0,
+      "d": "2026-06-18",
+      "won": 1,
       "pen": 0,
       "lost": 0,
-      "ns": 0,
+      "ns": 2,
       "mis": 0,
-      "can": 2,
+      "can": 4,
       "pp": 0,
       "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "rev": 5497,
+      "cash": 5497
     },
     {
       "n": "Marie Grondin",
@@ -3076,14 +3076,28 @@
       "cash": 0
     },
     {
+      "n": "Kymberley Peters",
+      "d": "2026-06-17",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Nik Toth",
-      "d": "2026-06-16",
+      "d": "2026-06-17",
       "won": 0,
       "pen": 0,
       "lost": 0,
-      "ns": 1,
+      "ns": 0,
       "mis": 0,
-      "can": 1,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3112,6 +3126,20 @@
       "ns": 3,
       "mis": 0,
       "can": 4,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-06-16",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 1,
+      "mis": 0,
+      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3160,6 +3188,20 @@
       "cash": 0
     },
     {
+      "n": "Kymberley Peters",
+      "d": "2026-06-12",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 1,
+      "mis": 1,
+      "can": 4,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Marie Grondin",
       "d": "2026-06-12",
       "won": 0,
@@ -3188,14 +3230,14 @@
       "cash": 2998.5
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-06-12",
+      "n": "Nik Toth",
+      "d": "2026-06-11",
       "won": 0,
       "pen": 0,
       "lost": 2,
       "ns": 1,
-      "mis": 1,
-      "can": 4,
+      "mis": 2,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3210,20 +3252,6 @@
       "ns": 7,
       "mis": 0,
       "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-06-11",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 1,
-      "mis": 2,
-      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3258,20 +3286,6 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-06-10",
-      "won": 0,
-      "pen": 0,
-      "lost": 3,
-      "ns": 0,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-06-10",
       "won": 0,
@@ -3280,6 +3294,20 @@
       "ns": 0,
       "mis": 1,
       "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-06-10",
+      "won": 0,
+      "pen": 0,
+      "lost": 3,
+      "ns": 0,
+      "mis": 0,
+      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3314,20 +3342,6 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-06-08",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 2,
-      "mis": 0,
-      "can": 3,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-06-08",
       "won": 0,
@@ -3336,6 +3350,20 @@
       "ns": 1,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-06-08",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 2,
+      "mis": 0,
+      "can": 3,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3370,20 +3398,6 @@
       "cash": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-06-05",
-      "won": 0,
-      "pen": 0,
-      "lost": 3,
-      "ns": 1,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Nik Toth",
       "d": "2026-06-05",
       "won": 1,
@@ -3398,14 +3412,14 @@
       "cash": 5497
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-06-04",
+      "n": "Marie Grondin",
+      "d": "2026-06-05",
       "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 0,
+      "lost": 3,
+      "ns": 1,
       "mis": 0,
-      "can": 5,
+      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3440,14 +3454,14 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-06-03",
+      "n": "Kymberley Peters",
+      "d": "2026-06-04",
       "won": 0,
       "pen": 0,
-      "lost": 2,
-      "ns": 1,
+      "lost": 0,
+      "ns": 0,
       "mis": 0,
-      "can": 0,
+      "can": 5,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3468,6 +3482,20 @@
       "cash": 3332.3333333333335
     },
     {
+      "n": "Nik Toth",
+      "d": "2026-06-03",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 1,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Marie Grondin",
       "d": "2026-06-03",
       "won": 0,
@@ -3482,14 +3510,14 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Nik Toth",
       "d": "2026-06-02",
       "won": 0,
       "pen": 0,
-      "lost": 2,
+      "lost": 1,
       "ns": 0,
-      "mis": 1,
-      "can": 4,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3510,14 +3538,14 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Kymberley Peters",
       "d": "2026-06-02",
       "won": 0,
       "pen": 0,
-      "lost": 1,
+      "lost": 2,
       "ns": 0,
-      "mis": 0,
-      "can": 0,
+      "mis": 1,
+      "can": 4,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3594,6 +3622,20 @@
       "cash": 3332.3333333333335
     },
     {
+      "n": "Marie Grondin",
+      "d": "2026-05-29",
+      "won": 1,
+      "pen": 0,
+      "lost": 2,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 9997,
+      "cash": 3332.3333333333335
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-05-29",
       "won": 2,
@@ -3609,17 +3651,17 @@
     },
     {
       "n": "Marie Grondin",
-      "d": "2026-05-29",
-      "won": 1,
+      "d": "2026-05-28",
+      "won": 0,
       "pen": 0,
-      "lost": 2,
-      "ns": 0,
+      "lost": 0,
+      "ns": 1,
       "mis": 0,
-      "can": 2,
+      "can": 3,
       "pp": 0,
       "ts": 0,
-      "rev": 9997,
-      "cash": 3332.3333333333335
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Nik Toth",
@@ -3650,28 +3692,14 @@
       "cash": 8330.833333333334
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-05-28",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 1,
-      "mis": 0,
-      "can": 3,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
+      "n": "Kymberley Peters",
       "d": "2026-05-27",
       "won": 0,
       "pen": 0,
       "lost": 2,
-      "ns": 0,
+      "ns": 3,
       "mis": 0,
-      "can": 2,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3692,14 +3720,14 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Marie Grondin",
       "d": "2026-05-27",
       "won": 0,
       "pen": 0,
       "lost": 2,
-      "ns": 3,
+      "ns": 0,
       "mis": 0,
-      "can": 0,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3776,20 +3804,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-05-22",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-05-22",
       "won": 1,
@@ -3802,6 +3816,20 @@
       "ts": 0,
       "rev": 5497,
       "cash": 5497
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-05-22",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Marie Grondin",
@@ -3818,20 +3846,6 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-05-21",
-      "won": 1,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 9497,
-      "cash": 791.4166666666666
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-05-21",
       "won": 1,
@@ -3844,6 +3858,20 @@
       "ts": 0,
       "rev": 5497,
       "cash": 5497
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-05-21",
+      "won": 1,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 9497,
+      "cash": 791.4166666666666
     },
     {
       "n": "Daniel Henderson",
@@ -3916,6 +3944,20 @@
       "cash": 0
     },
     {
+      "n": "Nik Toth",
+      "d": "2026-05-19",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Marie Grondin",
       "d": "2026-05-19",
       "won": 1,
@@ -3931,13 +3973,13 @@
     },
     {
       "n": "Nik Toth",
-      "d": "2026-05-19",
+      "d": "2026-05-18",
       "won": 0,
       "pen": 0,
-      "lost": 1,
-      "ns": 0,
+      "lost": 3,
+      "ns": 1,
       "mis": 0,
-      "can": 1,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -3966,20 +4008,6 @@
       "ns": 1,
       "mis": 0,
       "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-05-18",
-      "won": 0,
-      "pen": 0,
-      "lost": 3,
-      "ns": 1,
-      "mis": 0,
-      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4056,20 +4084,6 @@
       "cash": 0
     },
     {
-      "n": "Nik Toth",
-      "d": "2026-05-14",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 4,
-      "pp": 0,
-      "ts": 0,
-      "rev": 5497,
-      "cash": 5497
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-05-14",
       "won": 1,
@@ -4084,32 +4098,18 @@
       "cash": 2997
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-05-13",
-      "won": 1,
-      "pen": 0,
-      "lost": 1,
-      "ns": 2,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 3497,
-      "cash": 1165.6666666666667
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-05-13",
+      "n": "Nik Toth",
+      "d": "2026-05-14",
       "won": 1,
       "pen": 0,
       "lost": 0,
       "ns": 0,
       "mis": 0,
-      "can": 0,
+      "can": 4,
       "pp": 0,
       "ts": 0,
-      "rev": 9997,
-      "cash": 3332.3333333333335
+      "rev": 5497,
+      "cash": 5497
     },
     {
       "n": "Nik Toth",
@@ -4126,6 +4126,34 @@
       "cash": 6329.333333333333
     },
     {
+      "n": "Daniel Henderson",
+      "d": "2026-05-13",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 9997,
+      "cash": 3332.3333333333335
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-05-13",
+      "won": 1,
+      "pen": 0,
+      "lost": 1,
+      "ns": 2,
+      "mis": 0,
+      "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 3497,
+      "cash": 1165.6666666666667
+    },
+    {
       "n": "Marie Grondin",
       "d": "2026-05-13",
       "won": 1,
@@ -4148,20 +4176,6 @@
       "ns": 0,
       "mis": 0,
       "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-05-12",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 2,
-      "mis": 0,
-      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4182,6 +4196,20 @@
       "cash": 0
     },
     {
+      "n": "Marie Grondin",
+      "d": "2026-05-12",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
+      "ns": 2,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-05-11",
       "won": 2,
@@ -4196,20 +4224,6 @@
       "cash": 2331.3333333333335
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-05-11",
-      "won": 1,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 9997,
-      "cash": 3332.3333333333335
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-05-11",
       "won": 1,
@@ -4222,6 +4236,20 @@
       "ts": 0,
       "rev": 5497,
       "cash": 5497
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-05-11",
+      "won": 1,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 9997,
+      "cash": 3332.3333333333335
     },
     {
       "n": "Nik Toth",
@@ -4250,6 +4278,20 @@
       "ts": 0,
       "rev": 9997,
       "cash": 833.0833333333334
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-05-08",
+      "won": 1,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 9497,
+      "cash": 791.4166666666666
     },
     {
       "n": "Nik Toth",
@@ -4281,27 +4323,13 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-05-08",
-      "won": 1,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 9497,
-      "cash": 791.4166666666666
-    },
-    {
-      "n": "Nik Toth",
       "d": "2026-05-07",
       "won": 0,
       "pen": 0,
-      "lost": 1,
-      "ns": 0,
+      "lost": 0,
+      "ns": 1,
       "mis": 0,
-      "can": 0,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4322,14 +4350,14 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Nik Toth",
       "d": "2026-05-07",
       "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 1,
+      "lost": 1,
+      "ns": 0,
       "mis": 0,
-      "can": 2,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4344,6 +4372,20 @@
       "ns": 1,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-05-06",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4358,20 +4400,6 @@
       "ns": 2,
       "mis": 0,
       "can": 1,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Nik Toth",
-      "d": "2026-05-06",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4414,20 +4442,6 @@
       "ns": 0,
       "mis": 0,
       "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-05-04",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 1,
-      "mis": 0,
-      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4462,18 +4476,18 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-05-01",
-      "won": 1,
+      "n": "Daniel Henderson",
+      "d": "2026-05-04",
+      "won": 0,
       "pen": 0,
-      "lost": 2,
+      "lost": 0,
       "ns": 1,
       "mis": 0,
       "can": 1,
       "pp": 0,
       "ts": 0,
-      "rev": 8997,
-      "cash": 8997
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Marie Grondin",
@@ -4505,6 +4519,34 @@
     },
     {
       "n": "Kymberley Peters",
+      "d": "2026-05-01",
+      "won": 1,
+      "pen": 0,
+      "lost": 2,
+      "ns": 1,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 8997,
+      "cash": 8997
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-04-30",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
       "d": "2026-04-30",
       "won": 1,
       "pen": 0,
@@ -4518,14 +4560,14 @@
       "cash": 791.4166666666666
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-04-30",
+      "n": "Marie Grondin",
+      "d": "2026-04-29",
       "won": 0,
       "pen": 0,
       "lost": 0,
       "ns": 0,
       "mis": 0,
-      "can": 1,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4547,13 +4589,13 @@
     },
     {
       "n": "Marie Grondin",
-      "d": "2026-04-29",
+      "d": "2026-04-28",
       "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 0,
+      "lost": 1,
+      "ns": 1,
       "mis": 0,
-      "can": 2,
+      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4568,20 +4610,6 @@
       "ns": 1,
       "mis": 0,
       "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-04-28",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 1,
-      "mis": 0,
-      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4644,12 +4672,12 @@
       "cash": 833.0833333333334
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Marie Grondin",
       "d": "2026-04-24",
       "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 2,
+      "lost": 1,
+      "ns": 0,
       "mis": 0,
       "can": 0,
       "pp": 0,
@@ -4658,12 +4686,12 @@
       "cash": 0
     },
     {
-      "n": "Marie Grondin",
+      "n": "Daniel Henderson",
       "d": "2026-04-24",
       "won": 0,
       "pen": 0,
-      "lost": 1,
-      "ns": 0,
+      "lost": 0,
+      "ns": 2,
       "mis": 0,
       "can": 0,
       "pp": 0,
@@ -4686,6 +4714,20 @@
       "cash": 0
     },
     {
+      "n": "Daniel Henderson",
+      "d": "2026-04-23",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-04-23",
       "won": 1,
@@ -4700,8 +4742,8 @@
       "cash": 8497
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-04-23",
+      "n": "Marie Grondin",
+      "d": "2026-04-22",
       "won": 0,
       "pen": 0,
       "lost": 1,
@@ -4726,20 +4768,6 @@
       "ts": 0,
       "rev": 9997,
       "cash": 833.0833333333334
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-04-22",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
     },
     {
       "n": "Kymberley Peters",
@@ -4798,7 +4826,7 @@
       "cash": 791.4166666666666
     },
     {
-      "n": "Marie Grondin",
+      "n": "Kymberley Peters",
       "d": "2026-04-18",
       "won": 0,
       "pen": 0,
@@ -4812,7 +4840,7 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Marie Grondin",
       "d": "2026-04-18",
       "won": 0,
       "pen": 0,
@@ -4938,20 +4966,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-04-13",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 3,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-13",
       "won": 0,
@@ -4960,6 +4974,20 @@
       "ns": 0,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-04-13",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 3,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -4994,20 +5022,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-04-09",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 4,
-      "mis": 0,
-      "can": 6,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-04-09",
       "won": 0,
@@ -5016,6 +5030,20 @@
       "ns": 1,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-04-09",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 4,
+      "mis": 0,
+      "can": 6,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -5120,20 +5148,6 @@
       "cash": 833.0833333333334
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-03-31",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 1,
-      "mis": 0,
-      "can": 5,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-03-31",
       "won": 0,
@@ -5142,6 +5156,20 @@
       "ns": 1,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-03-31",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 1,
+      "mis": 0,
+      "can": 5,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -5246,20 +5274,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-03-24",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-03-24",
       "won": 1,
@@ -5272,6 +5286,20 @@
       "ts": 0,
       "rev": 10497,
       "cash": 10497
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-03-24",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
     },
     {
       "n": "Kymberley Peters",
@@ -5582,20 +5610,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-02-24",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Daniel Henderson",
       "d": "2026-02-24",
       "won": 0,
@@ -5604,6 +5618,20 @@
       "ns": 0,
       "mis": 0,
       "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-02-24",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -5652,6 +5680,20 @@
       "cash": 0
     },
     {
+      "n": "Marie Grondin",
+      "d": "2026-02-19",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Kymberley Peters",
       "d": "2026-02-19",
       "won": 1,
@@ -5666,12 +5708,12 @@
       "cash": 8997
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-02-19",
+      "n": "Daniel Henderson",
+      "d": "2026-02-18",
       "won": 0,
       "pen": 0,
       "lost": 1,
-      "ns": 0,
+      "ns": 1,
       "mis": 0,
       "can": 0,
       "pp": 0,
@@ -5695,11 +5737,11 @@
     },
     {
       "n": "Daniel Henderson",
-      "d": "2026-02-18",
+      "d": "2026-02-17",
       "won": 0,
       "pen": 0,
       "lost": 1,
-      "ns": 1,
+      "ns": 0,
       "mis": 0,
       "can": 0,
       "pp": 0,
@@ -5720,20 +5762,6 @@
       "ts": 0,
       "rev": 10497,
       "cash": 10497
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-02-17",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
     },
     {
       "n": "Kymberley Peters",
@@ -5778,20 +5806,6 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-02-13",
-      "won": 1,
-      "pen": 0,
-      "lost": 2,
-      "ns": 1,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 4497,
-      "cash": 4497
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-02-13",
       "won": 1,
@@ -5807,17 +5821,17 @@
     },
     {
       "n": "Kymberley Peters",
-      "d": "2026-02-12",
-      "won": 0,
+      "d": "2026-02-13",
+      "won": 1,
       "pen": 0,
-      "lost": 1,
+      "lost": 2,
       "ns": 1,
       "mis": 0,
-      "can": 5,
+      "can": 2,
       "pp": 0,
       "ts": 0,
-      "rev": 0,
-      "cash": 0
+      "rev": 4497,
+      "cash": 4497
     },
     {
       "n": "Marie Grondin",
@@ -5842,6 +5856,20 @@
       "ns": 0,
       "mis": 0,
       "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-02-12",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 1,
+      "mis": 0,
+      "can": 5,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6058,11 +6086,11 @@
       "cash": 10497
     },
     {
-      "n": "Marie Grondin",
+      "n": "Daniel Henderson",
       "d": "2026-01-29",
       "won": 0,
       "pen": 0,
-      "lost": 0,
+      "lost": 2,
       "ns": 0,
       "mis": 0,
       "can": 1,
@@ -6086,11 +6114,11 @@
       "cash": 13995.5
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Marie Grondin",
       "d": "2026-01-29",
       "won": 0,
       "pen": 0,
-      "lost": 2,
+      "lost": 0,
       "ns": 0,
       "mis": 0,
       "can": 1,
@@ -6128,20 +6156,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-01-27",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 1,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-01-27",
       "won": 0,
@@ -6150,6 +6164,20 @@
       "ns": 1,
       "mis": 0,
       "can": 3,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-01-27",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 1,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6175,6 +6203,20 @@
       "won": 0,
       "pen": 0,
       "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-01-24",
+      "won": 0,
+      "pen": 0,
+      "lost": 2,
       "ns": 0,
       "mis": 0,
       "can": 1,
@@ -6192,20 +6234,6 @@
       "ns": 1,
       "mis": 0,
       "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Kymberley Peters",
-      "d": "2026-01-24",
-      "won": 0,
-      "pen": 0,
-      "lost": 2,
-      "ns": 0,
-      "mis": 0,
-      "can": 1,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6234,20 +6262,6 @@
       "ns": 0,
       "mis": 0,
       "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
-      "n": "Marie Grondin",
-      "d": "2026-01-22",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 3,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6268,6 +6282,20 @@
       "cash": 0
     },
     {
+      "n": "Marie Grondin",
+      "d": "2026-01-22",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 0,
+      "mis": 0,
+      "can": 3,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Daniel Henderson",
       "d": "2026-01-22",
       "won": 0,
@@ -6310,20 +6338,6 @@
       "cash": 0
     },
     {
-      "n": "Marie Grondin",
-      "d": "2026-01-20",
-      "won": 0,
-      "pen": 0,
-      "lost": 1,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Kymberley Peters",
       "d": "2026-01-20",
       "won": 0,
@@ -6332,6 +6346,20 @@
       "ns": 0,
       "mis": 1,
       "can": 0,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Marie Grondin",
+      "d": "2026-01-20",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 0,
+      "mis": 0,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6366,20 +6394,6 @@
       "cash": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-01-19",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 2,
-      "mis": 0,
-      "can": 0,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-01-19",
       "won": 0,
@@ -6388,6 +6402,20 @@
       "ns": 1,
       "mis": 0,
       "can": 2,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-01-19",
+      "won": 0,
+      "pen": 0,
+      "lost": 0,
+      "ns": 2,
+      "mis": 0,
+      "can": 0,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6436,12 +6464,12 @@
       "cash": 10497
     },
     {
-      "n": "Marie Grondin",
+      "n": "Kymberley Peters",
       "d": "2026-01-16",
       "won": 0,
       "pen": 0,
-      "lost": 1,
-      "ns": 1,
+      "lost": 0,
+      "ns": 3,
       "mis": 0,
       "can": 0,
       "pp": 0,
@@ -6450,12 +6478,12 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Marie Grondin",
       "d": "2026-01-16",
       "won": 0,
       "pen": 0,
-      "lost": 0,
-      "ns": 3,
+      "lost": 1,
+      "ns": 1,
       "mis": 0,
       "can": 0,
       "pp": 0,
@@ -6520,6 +6548,20 @@
       "cash": 0
     },
     {
+      "n": "Kymberley Peters",
+      "d": "2026-01-14",
+      "won": 0,
+      "pen": 0,
+      "lost": 1,
+      "ns": 1,
+      "mis": 0,
+      "can": 1,
+      "pp": 0,
+      "ts": 0,
+      "rev": 0,
+      "cash": 0
+    },
+    {
       "n": "Daniel Henderson",
       "d": "2026-01-14",
       "won": 0,
@@ -6534,14 +6576,14 @@
       "cash": 0
     },
     {
-      "n": "Kymberley Peters",
-      "d": "2026-01-14",
+      "n": "Daniel Henderson",
+      "d": "2026-01-13",
       "won": 0,
       "pen": 0,
-      "lost": 1,
-      "ns": 1,
+      "lost": 0,
+      "ns": 0,
       "mis": 0,
-      "can": 1,
+      "can": 2,
       "pp": 0,
       "ts": 0,
       "rev": 0,
@@ -6560,20 +6602,6 @@
       "ts": 0,
       "rev": 9997,
       "cash": 4998.5
-    },
-    {
-      "n": "Daniel Henderson",
-      "d": "2026-01-13",
-      "won": 0,
-      "pen": 0,
-      "lost": 0,
-      "ns": 0,
-      "mis": 0,
-      "can": 2,
-      "pp": 0,
-      "ts": 0,
-      "rev": 0,
-      "cash": 0
     },
     {
       "n": "Daniel Henderson",
@@ -6732,17 +6760,30 @@
   ],
   "kpi": [
     {
-      "n": "Daniel Henderson",
+      "n": "Kymberley Peters",
+      "d": "2026-09-01",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 2,
+      "su": 1,
+      "cf": 0,
+      "cash": 1999,
+      "rev": 5497
+    },
+    {
+      "n": "Marie Grondin",
       "d": "2026-08-31",
-      "hrs": 35,
-      "di": 20,
+      "hrs": 0,
+      "di": 0,
       "se": 0,
       "ap": 0,
       "ns": 0,
-      "su": 1,
+      "su": 2,
       "cf": 0,
-      "cash": 4997,
-      "rev": 4997
+      "cash": 0,
+      "rev": 0
     },
     {
       "n": "Briony Evans",
@@ -6756,6 +6797,32 @@
       "cf": 0,
       "cash": 3497,
       "rev": 3497
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-08-31",
+      "hrs": 35,
+      "di": 20,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 1,
+      "cf": 0,
+      "cash": 4997,
+      "rev": 4997
+    },
+    {
+      "n": "Nik Toth",
+      "d": "2026-08-31",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 4,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
     },
     {
       "n": "Daniel Henderson",
@@ -6927,7 +6994,7 @@
       "rev": 1
     },
     {
-      "n": "Renee Beal",
+      "n": "Russell Keddie",
       "d": "2026-08-18",
       "hrs": 0,
       "di": 0,
@@ -6940,7 +7007,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Renee Beal",
       "d": "2026-08-18",
       "hrs": 0,
       "di": 0,
@@ -7239,7 +7306,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Daniel Henderson",
       "d": "2026-08-15",
       "hrs": 0,
       "di": 0,
@@ -7317,7 +7384,7 @@
       "rev": 0
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Russell Keddie",
       "d": "2026-08-15",
       "hrs": 0,
       "di": 0,
@@ -7330,7 +7397,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Briony Evans",
       "d": "2026-08-15",
       "hrs": 0,
       "di": 0,
@@ -8071,7 +8138,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Daniel Henderson",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -8136,7 +8203,7 @@
       "rev": 0
     },
     {
-      "n": "Daniel Henderson",
+      "n": "Russell Keddie",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -8149,7 +8216,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Briony Evans",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -9631,7 +9698,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Marie Grondin",
       "d": "2026-07-23",
       "hrs": 0,
       "di": 0,
@@ -9644,7 +9711,7 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
+      "n": "Laura Fillmann",
       "d": "2026-07-23",
       "hrs": 0,
       "di": 0,
@@ -12647,7 +12714,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Nik Toth",
       "d": "2026-06-24",
       "hrs": 0,
       "di": 0,
@@ -12660,7 +12727,7 @@
       "rev": 0
     },
     {
-      "n": "Marie Grondin",
+      "n": "Laura Fillmann",
       "d": "2026-06-24",
       "hrs": 0,
       "di": 0,
@@ -12712,6 +12779,19 @@
       "rev": 0
     },
     {
+      "n": "Russell Keddie",
+      "d": "2026-06-24",
+      "hrs": 1,
+      "di": 50,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
       "n": "Renee Beal",
       "d": "2026-06-24",
       "hrs": 0,
@@ -12725,23 +12805,10 @@
       "rev": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Marie Grondin",
       "d": "2026-06-24",
       "hrs": 0,
       "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Russell Keddie",
-      "d": "2026-06-24",
-      "hrs": 1,
-      "di": 50,
       "se": 0,
       "ap": 0,
       "ns": 0,
@@ -18796,45 +18863,6 @@
       "rev": 0
     },
     {
-      "n": "Daniel Henderson",
-      "d": "2026-04-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Kymberley Peters",
-      "d": "2026-04-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
-      "n": "Laura Fillmann",
-      "d": "2026-04-26",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 0,
-      "cf": 0,
-      "cash": 0,
-      "rev": 0
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-04-26",
       "hrs": 0,
@@ -18874,7 +18902,7 @@
       "rev": 0
     },
     {
-      "n": "Briony Evans",
+      "n": "Russell Keddie",
       "d": "2026-04-26",
       "hrs": 0,
       "di": 0,
@@ -18887,7 +18915,46 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Laura Fillmann",
+      "d": "2026-04-26",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-04-26",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-04-26",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 0,
+      "cf": 0,
+      "cash": 0,
+      "rev": 0
+    },
+    {
+      "n": "Briony Evans",
       "d": "2026-04-26",
       "hrs": 0,
       "di": 0,

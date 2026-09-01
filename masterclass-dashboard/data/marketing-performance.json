@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-28T12:00:00.000Z",
-    "source": "BigQuery heart_smart_au.marketing_ad_spend_daily (Meta Ads verified)",
-    "dataWindow": "Jul 29 - Aug 27, 2026",
-    "syncedAt": "2026-08-28",
-    "dataPoints": 27,
-    "note": "Heart Smart Australia — Meta Ads daily data, last 30 days"
+    "generatedAt": "2026-09-01T12:00:00.000Z",
+    "source": "Meta Ads API (Heart Smart AU act_510603536638743)",
+    "dataWindow": "Jul 29 - Sep 1, 2026",
+    "syncedAt": "2026-09-01",
+    "dataPoints": 32,
+    "note": "Heart Smart Australia — Meta Ads daily data, 35-day window"
   },
   "daily": [
     { "date": "2026-07-29", "spend": 1850.73, "impressions": 60468, "linkClicks": 2006, "leads": 238 },
@@ -34,12 +34,17 @@
     { "date": "2026-08-24", "spend": 1013.42, "impressions": 31622, "linkClicks": 1238, "leads": 124 },
     { "date": "2026-08-25", "spend": 1246.17, "impressions": 41070, "linkClicks": 1686, "leads": 158 },
     { "date": "2026-08-26", "spend": 617.53, "impressions": 28873, "linkClicks": 900, "leads": 102 },
-    { "date": "2026-08-27", "spend": 122.88, "impressions": 6950, "linkClicks": 178, "leads": 18 }
+    { "date": "2026-08-27", "spend": 122.88, "impressions": 6950, "linkClicks": 178, "leads": 18 },
+    { "date": "2026-08-28", "spend": 237.57, "impressions": 14355, "linkClicks": 320, "leads": 49 },
+    { "date": "2026-08-29", "spend": 498.87, "impressions": 27266, "linkClicks": 731, "leads": 109 },
+    { "date": "2026-08-30", "spend": 466.36, "impressions": 26694, "linkClicks": 711, "leads": 110 },
+    { "date": "2026-08-31", "spend": 381.48, "impressions": 25348, "linkClicks": 577, "leads": 81 },
+    { "date": "2026-09-01", "spend": 73.49, "impressions": 4055, "linkClicks": 96, "leads": 15 }
   ],
   "totals": {
-    "spend": 35497.28,
-    "impressions": 1274387,
-    "linkClicks": 37741,
-    "leads": 4421
+    "spend": 37155.05,
+    "impressions": 1298442,
+    "linkClicks": 38152,
+    "leads": 4436
   }
 }

@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-02T04:41:26.772Z",
+  "synced_at": "2026-09-03T00:00:46.721Z",
   "agents": [
     {
       "n": "Benjamin Hext",
@@ -6761,7 +6761,20 @@
   "kpi": [
     {
       "n": "Kymberley Peters",
-      "d": "2026-09-01",
+      "d": "2026-09-02",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 1,
+      "cf": 0,
+      "cash": 4997,
+      "rev": 4997
+    },
+    {
+      "n": "Daniel Henderson",
+      "d": "2026-09-02",
       "hrs": 0,
       "di": 0,
       "se": 0,
@@ -6769,8 +6782,8 @@
       "ns": 2,
       "su": 1,
       "cf": 0,
-      "cash": 1999,
-      "rev": 5497
+      "cash": 0,
+      "rev": 0
     },
     {
       "n": "Marie Grondin",
@@ -6784,6 +6797,19 @@
       "cf": 0,
       "cash": 0,
       "rev": 0
+    },
+    {
+      "n": "Kymberley Peters",
+      "d": "2026-09-01",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 2,
+      "su": 1,
+      "cf": 0,
+      "cash": 1999,
+      "rev": 5497
     },
     {
       "n": "Nik Toth",
@@ -6968,19 +6994,6 @@
       "rev": 10994
     },
     {
-      "n": "Briony Evans",
-      "d": "2026-08-24",
-      "hrs": 0,
-      "di": 0,
-      "se": 0,
-      "ap": 0,
-      "ns": 0,
-      "su": 1,
-      "cf": 0,
-      "cash": 999.5,
-      "rev": 5997
-    },
-    {
       "n": "Marie Grondin",
       "d": "2026-08-24",
       "hrs": 0.3333333333333333,
@@ -6992,6 +7005,19 @@
       "cf": 0,
       "cash": 0,
       "rev": 0
+    },
+    {
+      "n": "Briony Evans",
+      "d": "2026-08-24",
+      "hrs": 0,
+      "di": 0,
+      "se": 0,
+      "ap": 0,
+      "ns": 0,
+      "su": 1,
+      "cf": 0,
+      "cash": 999.5,
+      "rev": 5997
     },
     {
       "n": "Briony Evans",
@@ -7319,7 +7345,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-15",
       "hrs": 0,
       "di": 0,
@@ -7371,7 +7397,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Russell Keddie",
       "d": "2026-08-15",
       "hrs": 0,
       "di": 0,
@@ -7384,7 +7410,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Kymberley Peters",
       "d": "2026-08-15",
       "hrs": 0,
       "di": 0,
@@ -8151,7 +8177,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -8190,7 +8216,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Russell Keddie",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -8203,7 +8229,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Kymberley Peters",
       "d": "2026-08-07",
       "hrs": 0,
       "di": 0,
@@ -9711,7 +9737,7 @@
       "rev": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Renee Beal",
       "d": "2026-07-23",
       "hrs": 0,
       "di": 0,
@@ -9789,7 +9815,7 @@
       "rev": 0
     },
     {
-      "n": "Renee Beal",
+      "n": "Nik Toth",
       "d": "2026-07-23",
       "hrs": 0,
       "di": 0,
@@ -12727,7 +12753,7 @@
       "rev": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Renee Beal",
       "d": "2026-06-24",
       "hrs": 0,
       "di": 0,
@@ -12805,7 +12831,7 @@
       "rev": 0
     },
     {
-      "n": "Renee Beal",
+      "n": "Nik Toth",
       "d": "2026-06-24",
       "hrs": 0,
       "di": 0,
@@ -18772,7 +18798,7 @@
       "rev": 0
     },
     {
-      "n": "Kymberley Peters",
+      "n": "Laura Fillmann",
       "d": "2026-04-27",
       "hrs": 0,
       "di": 0,
@@ -18811,7 +18837,7 @@
       "rev": 0
     },
     {
-      "n": "Laura Fillmann",
+      "n": "Kymberley Peters",
       "d": "2026-04-27",
       "hrs": 0,
       "di": 0,
@@ -18876,7 +18902,7 @@
       "rev": 0
     },
     {
-      "n": "Nik Toth",
+      "n": "Russell Keddie",
       "d": "2026-04-26",
       "hrs": 0,
       "di": 0,
@@ -18902,7 +18928,7 @@
       "rev": 0
     },
     {
-      "n": "Russell Keddie",
+      "n": "Nik Toth",
       "d": "2026-04-26",
       "hrs": 0,
       "di": 0,

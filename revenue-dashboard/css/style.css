@@ -626,13 +626,26 @@ select option, select optgroup {
     max-height: 180px;
 }
 
+/* Tables Grid - Two Columns Side-by-Side */
+.tables-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+    .tables-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Table Section */
 .table-section {
     padding: 16px;
     background: linear-gradient(135deg, var(--surface) 0%, var(--raised) 100%);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    margin-bottom: 16px;
     transition: var(--transition);
     animation: fadeInUp 0.6s ease-out 0.3s both;
 }

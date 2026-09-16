@@ -608,22 +608,31 @@ function renderKPIs(summary) {
     document.getElementById('eftRevenue').textContent = formatCurrency(summary.eftRevenue);
 }
 
-// Render Year Comparison Table
+// Render Year Comparison Table - 2 column format (Year, Revenue)
 function renderYearComparison(data) {
     const tbody = document.getElementById('yearComparisonBody');
     tbody.innerHTML = '';
 
-    data.forEach(row => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-            <td><strong>${row.mode}</strong></td>
-            <td>${formatCurrency(row['2025'])}</td>
-            <td>${formatCurrency(row['2026'])}</td>
-            <td>${formatCurrency(row['2027'])}</td>
-            <td><strong>${formatCurrency(row.total)}</strong></td>
-        `;
-        tbody.appendChild(tr);
-    });
+    // Get the first row (Total Revenue row) from the data
+    if (data.length > 0) {
+        const totalsRow = data[0];
+        const years = [
+            { year: '2025', value: totalsRow['2025'] },
+            { year: '2026', value: totalsRow['2026'] },
+            { year: '2027', value: totalsRow['2027'] },
+            { year: 'Total', value: totalsRow.total }
+        ];
+
+        years.forEach(yearData => {
+            const tr = document.createElement('tr');
+            const isTotal = yearData.year === 'Total';
+            tr.innerHTML = `
+                <td><strong>${yearData.year}</strong></td>
+                <td style="${isTotal ? 'font-weight: 600;' : ''}">${formatCurrency(yearData.value)}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
 }
 
 // Sort monthly data chronologically (oldest to newest)

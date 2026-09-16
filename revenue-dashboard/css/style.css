@@ -439,20 +439,14 @@ select option, select optgroup {
     font-weight: 600;
 }
 
-/* KPI Section */
+/* KPI Section - Responsive grid that adapts smoothly */
 .kpi-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 12px;
     padding: 0;
     margin-bottom: 20px;
     animation: fadeInUp 0.6s ease-out 0.1s both;
-}
-
-@media (max-width: 1024px) {
-    .kpi-section {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 768px) {

@@ -684,7 +684,7 @@ select option, select optgroup {
 .data-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .data-table thead {
@@ -692,18 +692,18 @@ select option, select optgroup {
 }
 
 .data-table th {
-    padding: 10px 8px;
+    padding: 8px 6px;
     text-align: left;
     font-weight: 600;
     color: var(--ink);
     border-bottom: 1px solid var(--line);
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 10px;
     letter-spacing: 0.4px;
 }
 
 .data-table td {
-    padding: 10px 8px;
+    padding: 8px 6px;
     border-bottom: 1px solid var(--line-soft);
     color: var(--ink);
     transition: background-color 0.2s ease;

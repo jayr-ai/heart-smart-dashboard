@@ -55,7 +55,7 @@ body::before {
     z-index: 2;
     max-width: 1620px;
     margin: 0 auto;
-    padding: 0 22px 72px;
+    padding: 0 22px 30px;
     animation: fadeInUp 0.6s ease-out;
 }
 
@@ -95,9 +95,9 @@ body::before {
 .header {
     background: linear-gradient(135deg, var(--surface) 0%, rgba(28, 42, 36, 0.95) 100%);
     color: var(--ink);
-    padding: 28px 20px;
+    padding: 18px 20px;
     border-bottom: 1px solid var(--line);
-    margin: -24px -22px 30px -22px;
+    margin: -24px -22px 16px -22px;
     animation: slideInDown 0.5s ease-out;
 }
 
@@ -442,18 +442,30 @@ select option, select optgroup {
 /* KPI Section */
 .kpi-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     animation: fadeInUp 0.6s ease-out 0.1s both;
+}
+
+@media (max-width: 1400px) {
+    .kpi-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .kpi-section {
+        grid-template-columns: 1fr;
+    }
 }
 
 .kpi-card {
     background: linear-gradient(135deg, var(--surface) 0%, var(--raised) 100%);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 25px;
+    padding: 18px;
     text-align: center;
     transition: var(--transition);
     position: relative;
@@ -485,13 +497,14 @@ select option, select optgroup {
 }
 
 .kpi-label {
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     color: var(--muted);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     font-weight: 600;
     transition: color 0.3s ease;
+    line-height: 1.2;
 }
 
 .kpi-card:hover .kpi-label {
@@ -499,7 +512,7 @@ select option, select optgroup {
 }
 
 .kpi-value {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     color: var(--accent);
     transition: color 0.3s ease;
@@ -537,7 +550,27 @@ select option, select optgroup {
     text-shadow: 0 0 20px rgba(155, 89, 182, 0.3);
 }
 
-/* Charts Section */
+/* Charts Grid - Compact 3-Column Layout */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .charts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Charts Section - Legacy */
 .charts-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -548,7 +581,7 @@ select option, select optgroup {
 .chart-container {
     background: linear-gradient(135deg, var(--surface) 0%, var(--raised) 100%);
     border-radius: var(--radius);
-    padding: 25px;
+    padding: 16px;
     border: 1px solid var(--line);
     transition: var(--transition);
     animation: fadeInUp 0.6s ease-out 0.2s both;
@@ -581,11 +614,11 @@ select option, select optgroup {
 }
 
 .chart-container h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--ink);
-    margin-bottom: 20px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 1px solid var(--line);
     transition: color 0.3s ease;
 }
@@ -595,16 +628,16 @@ select option, select optgroup {
 }
 
 .chart-container canvas {
-    max-height: 400px;
+    max-height: 250px;
 }
 
 /* Table Section */
 .table-section {
-    padding: 25px;
+    padding: 16px;
     background: linear-gradient(135deg, var(--surface) 0%, var(--raised) 100%);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     transition: var(--transition);
     animation: fadeInUp 0.6s ease-out 0.3s both;
 }
@@ -615,18 +648,18 @@ select option, select optgroup {
 }
 
 .table-section h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--ink);
-    margin-bottom: 20px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 1px solid var(--line);
 }
 
 .data-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .data-table thead {
@@ -634,18 +667,18 @@ select option, select optgroup {
 }
 
 .data-table th {
-    padding: 15px 12px;
+    padding: 10px 8px;
     text-align: left;
     font-weight: 600;
     color: var(--ink);
     border-bottom: 1px solid var(--line);
     text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    font-size: 11px;
+    letter-spacing: 0.4px;
 }
 
 .data-table td {
-    padding: 15px 12px;
+    padding: 10px 8px;
     border-bottom: 1px solid var(--line-soft);
     color: var(--ink);
     transition: background-color 0.2s ease;

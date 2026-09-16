@@ -956,7 +956,7 @@ function renderSalesBreakdown(transactions) {
     tbody.innerHTML = '';
 
     if (!transactions || transactions.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: var(--muted);">Transaction data not available yet</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--muted);">Transaction data not available yet</td></tr>';
         return;
     }
 
@@ -968,7 +968,6 @@ function renderSalesBreakdown(transactions) {
         tr.innerHTML = `
             <td>${formatDate(tx.date)}</td>
             <td>${tx.name || '-'}</td>
-            <td style="font-size: 11px;">${tx.email || '-'}</td>
             <td>${tx.product || '-'}</td>
             <td>${tx.closer || '-'}</td>
             <td><span style="padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; background: ${getModeColor(tx.source)}">${tx.source}</span></td>

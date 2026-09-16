@@ -634,14 +634,25 @@ select option, select optgroup {
     margin-bottom: 16px;
 }
 
+/* Tables Grid - Three Columns (Asymmetric: 20% / 30% / 50%) */
+.tables-grid-3col {
+    grid-template-columns: 20% 30% 1fr;
+}
+
 @media (max-width: 1200px) {
     .tables-grid {
         grid-template-columns: 35% 1fr;
+    }
+    .tables-grid-3col {
+        grid-template-columns: 20% 30% 1fr;
     }
 }
 
 @media (max-width: 1024px) {
     .tables-grid {
+        grid-template-columns: 1fr;
+    }
+    .tables-grid-3col {
         grid-template-columns: 1fr;
     }
 }

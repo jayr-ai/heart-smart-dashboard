@@ -1,43 +1,66 @@
 {
   "meta": {
-    "generatedAt": "2026-08-20T23:21:28.255Z",
-    "source": "Google Sheet (FA | Webinar Lead Tracker, X-Auto tab)",
-    "dataWindow": "Apr 2026 - Present",
-    "cacheStatus": "Live sync from Google Sheet (updated daily)",
-    "totalAttendees": 270
+    "generatedAt": "2026-09-16T00:20:34.260928Z",
+    "source": "Google Sheet 'Heart Smart Webinar Lead Tracker' (Column P 'Attended Webinar') \u2014 unique emails per Webinar Date",
+    "dataWindow": "2026-04-10 to 2026-08-26",
+    "totalAttendees": 72
   },
   "masterclassAttendance": [
     {
-      "date": "2026-08-18",
-      "attended": 33
+      "date": "2026-08-26",
+      "attended": 28
     },
     {
-      "date": "2026-08-11",
-      "attended": 38
+      "date": "2026-08-19",
+      "attended": 43
     },
     {
-      "date": "2026-08-05",
-      "attended": 76
-    },
-    {
-      "date": "2026-08-04",
-      "attended": 40
-    },
-    {
-      "date": "2026-07-28",
-      "attended": 32
-    },
-    {
-      "date": "2026-07-22",
-      "attended": 33
-    },
-    {
-      "date": "2026-07-16",
-      "attended": 17
-    },
-    {
-      "date": "2026-06-04",
+      "date": "2026-08-14",
       "attended": 1
+    },
+    {
+      "date": "2026-06-18",
+      "attended": 0
+    },
+    {
+      "date": "2026-06-10",
+      "attended": 0
+    },
+    {
+      "date": "2026-06-03",
+      "attended": 0
+    },
+    {
+      "date": "2026-05-28",
+      "attended": 0
+    },
+    {
+      "date": "2026-05-21",
+      "attended": 0
+    },
+    {
+      "date": "2026-05-14",
+      "attended": 0
+    },
+    {
+      "date": "2026-05-07",
+      "attended": 0
+    },
+    {
+      "date": "2026-05-01",
+      "attended": 0
+    },
+    {
+      "date": "2026-04-24",
+      "attended": 0
+    },
+    {
+      "date": "2026-04-17",
+      "attended": 0
+    },
+    {
+      "date": "2026-04-10",
+      "attended": 0
     }
   ]
 }

@@ -443,13 +443,13 @@ select option, select optgroup {
 .kpi-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 12px;
     padding: 0;
     margin-bottom: 20px;
     animation: fadeInUp 0.6s ease-out 0.1s both;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1024px) {
     .kpi-section {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -465,7 +465,7 @@ select option, select optgroup {
     background: linear-gradient(135deg, var(--surface) 0%, var(--raised) 100%);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 18px;
+    padding: 14px 12px;
     text-align: center;
     transition: var(--transition);
     position: relative;
@@ -497,14 +497,14 @@ select option, select optgroup {
 }
 
 .kpi-label {
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.3px;
     color: var(--muted);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-weight: 600;
     transition: color 0.3s ease;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .kpi-card:hover .kpi-label {

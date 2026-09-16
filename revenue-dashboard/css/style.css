@@ -544,11 +544,11 @@ select option, select optgroup {
     text-shadow: 0 0 20px rgba(155, 89, 182, 0.3);
 }
 
-/* Charts Grid - Compact 3-Column Layout */
+/* Charts Grid - Compact 4-Column Layout */
 .charts-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
     margin-bottom: 20px;
 }
 
@@ -575,7 +575,7 @@ select option, select optgroup {
 .chart-container {
     background: linear-gradient(135deg, var(--surface) 0%, var(--raised) 100%);
     border-radius: var(--radius);
-    padding: 16px;
+    padding: 12px;
     border: 1px solid var(--line);
     transition: var(--transition);
     animation: fadeInUp 0.6s ease-out 0.2s both;
@@ -608,13 +608,14 @@ select option, select optgroup {
 }
 
 .chart-container h3 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--ink);
-    margin-bottom: 12px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
     border-bottom: 1px solid var(--line);
     transition: color 0.3s ease;
+    line-height: 1.1;
 }
 
 .chart-container:hover h3 {
@@ -622,7 +623,7 @@ select option, select optgroup {
 }
 
 .chart-container canvas {
-    max-height: 250px;
+    max-height: 180px;
 }
 
 /* Table Section */
